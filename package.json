@@ -85,6 +85,24 @@
           "name": "wip"
         },
         {
+          "emoji": "⚡️",
+          "code": ":zap:",
+          "description": "性能优化",
+          "name": "perf"
+        },
+        {
+          "emoji": "♻️",
+          "code": ":recycle:",
+          "description": "代码重构",
+          "name": "refactor"
+        },
+        {
+          "emoji": "⏪",
+          "code": ":rewind:",
+          "description": "回滚代码",
+          "name": "revert"
+        },
+        {
           "emoji": "🔧",
           "code": ":wrench:",
           "description": "修改配置文件",
@@ -117,6 +135,7 @@
     ]
   },
   "devDependencies": {
+    "@mewjs/cli": "workspace:*",
     "commitizen": "^4.3.0",
     "commitlint": "^17.6.1",
     "commitlint-config-gitmoji": "^2.3.1",

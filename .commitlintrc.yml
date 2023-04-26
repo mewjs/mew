@@ -17,17 +17,19 @@ rules:
         -
             - feat
             - fix
-            - perf
-            - opt
-            - docs
             - style
-            - refactor
-            - chore
+            - prune
+            - ui
+            - docs
             - test
-            - build
+            - lint
+            - wip
+            - perf
+            - refactor
             - revert
-            - ci
+            - config
             - merge
+            - release
             - init
 
     type-case:
