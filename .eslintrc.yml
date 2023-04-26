@@ -1,0 +1,11 @@
+extends:
+    - "plugin:@mewjs/typescript"
+env:
+    node: true
+
+ignorePatterns:
+    - coverage/**
+    - fixture/**
+
+rules:
+    no-console: 0

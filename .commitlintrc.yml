@@ -1,0 +1,72 @@
+extends:
+    - gitmoji
+
+parserPreset:
+    parserOpts:
+        headerPattern: '^(\w+)(?:\((.*?)\))?:\s:\w+:\s((?:.*(?=\())|.*)(?:\(#(\d*)\))?'
+        headerCorrespondence:
+            - type
+            - scope
+            - subject
+            - ticket
+
+rules:
+    type-enum:
+        - 2
+        - always
+        -
+            - feat
+            - fix
+            - perf
+            - opt
+            - docs
+            - style
+            - refactor
+            - chore
+            - test
+            - build
+            - revert
+            - ci
+            - merge
+            - init
+
+    type-case:
+        - 2
+        - always
+        - lower-case
+
+    scope-enum:
+        - 2
+        - always
+        -
+            - mew
+            - styleguide
+            - eslint-plugin
+            - mpxml-eslint-parser
+            - eslint-plugin-mini
+            - dom
+            - htmlparser2
+            - html-code-gen
+            - html-nest-rule
+            - manis
+            - htmlint
+            - stylelint
+            - cli
+            - vscode
+            - loader
+            - sonar
+
+
+    scope-case:
+        - 2
+        - always
+        - lower-case
+
+    subject-full-stop:
+        - 0
+        - never
+
+    subject-case:
+        - 0
+        - never
+
