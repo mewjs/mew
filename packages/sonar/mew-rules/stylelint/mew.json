@@ -1,0 +1,27 @@
+[
+    {
+      "key": "mew/white-space-between-values",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/stylelint/README.md",
+      "name": "need whitespace between values"
+    },
+    {
+        "key": "mew/strict-values",
+        "url": "https://github.com/mewjs/mew/blob/main/packages/stylelint/README.md",
+        "name": "strict check css values"
+    },
+    {
+        "key": "mew/stylus-colon",
+        "url": "https://github.com/mewjs/mew/blob/main/packages/stylelint/README.md",
+        "name": "use ':' between props and values"
+    },
+    {
+        "key": "mew/stylus-trailing-semicolon",
+        "url": "https://github.com/mewjs/mew/blob/main/packages/stylelint/README.md",
+        "name": "need trailing ';'"
+    },
+    {
+        "key": "mew/use-hex-color",
+        "url": "https://github.com/mewjs/mew/blob/main/packages/stylelint/README.md",
+        "name": "use hex color"
+    }
+]

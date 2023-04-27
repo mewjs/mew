@@ -1,0 +1,15 @@
+{
+  "name": "@mewjs/sonar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh ./build.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "typescript": "~4.5.4"
+  }
+}

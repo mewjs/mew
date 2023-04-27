@@ -1,0 +1,172 @@
+[
+    {
+        "key": "asset-type",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-asset-type",
+        "name": "Default value of attribute type (for <link>/<style>/<script>) does not need to be set. If set, it reports."
+    },
+    {
+        "key": "attr-lowercase",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-attr-lowercase",
+        "name": "Attribute name must be lowercased. If not, it reports."
+    },
+    {
+        "key": "attr-no-duplication",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-attr-no-duplication",
+        "name": "One element should not have duplicated attribute names. If found, it reports."
+    },
+    {
+        "key": "attr-value-double-quotes",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-attr-value-double-quotes",
+        "name": "Attribute value must be closed by double quotes. If found not, it reports."
+    },
+    {
+        "key": "bool-attribute-value",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-bool-attribute-value",
+        "name": "Value of boolean attributes should not be set. If found set, it reports."
+    },
+    {
+        "key": "button-name",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-button-name",
+        "name": "Attribute name of <button> is not recommended to be set. If found set, it reports."
+    },
+    {
+        "key": "button-type",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-button-type",
+        "name": "<meta charset> is recommended and it should be the first element child of <head>. If not found, or found at wrong position, it reports."
+    },
+    {
+        "key": "charset",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-charset",
+        "name": "Attribute type of <button> is recommended to be set. If found not set, it reports."
+    },
+    {
+        "key": "css-in-head",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-css-in-head",
+        "name": "All CSS contents (<link rel=\"stylesheet\"> or <style>) are recommended to be imported in <head>. If found not in <head>, it reports."
+    },
+    {
+        "key": "doctype",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-doctype",
+        "name": "The <!DOCTYPE> declaration is needed and HTML5 is recommended. If not found or found not HTML5, it reports."
+    },
+    {
+        "key": "html-lang",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-html-lang",
+        "name": "Attribute lang of <html> recommended to be set. If found not set, it reports."
+    },
+    {
+        "key": "id-class-ad-disabled",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-id-class-ad-disabled",
+        "name": "Value of attribute id or class should not contain ad-relative keyword, which may cause the element blocked by adblock software. If found so, it reports."
+    },
+    {
+        "key": "ie-edge",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-ie-edge",
+        "name": "To display the webpage in edge mode, <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"> is recommended. If not found, it reports."
+    },
+    {
+        "key": "img-alt",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-img-alt",
+        "name": "Attribute alt of <img> is recommended to be set. If found not set, it reports."
+    },
+    {
+        "key": "img-src",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-img-src",
+        "name": "Attribute src of <img> should not be empty (\"\"), which may cause additional request for the document. If found so, it reports."
+    },
+    {
+        "key": "img-title",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-img-title",
+        "name": "Attribute title of <img> is not recommended to be set. If found set, it reports."
+    },
+    {
+        "key": "img-width-height",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-img-width-height",
+        "name": "Attribute width & height of <img> is recommended to be set, which can reduce re-layout while rendering. If found not set, it reports."
+    },
+    {
+        "key": "lowercase-class-with-hyphen",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-lowercase-class-with-hyphen",
+        "name": "ClassName (value of attribute class) should be lowercased words connected with hyphens (- instead of _). If found not, it reports."
+    },
+    {
+        "key": "lowercase-id-with-hyphen",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-lowercase-id-with-hyphen",
+        "name": "Id (value of attribute id) should be lowercased words connected with hyphens (- instead of _). If found not, it reports."
+    },
+    {
+        "key": "nest",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-nest",
+        "name": "Elements should be nested abiding by specific rules. If found not, it reports."
+    },
+    {
+        "key": "rel-stylesheet",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-indent-char",
+        "name": "Attribute rel of <link> (if not set) should be set as stylesheet."
+    },
+    {
+        "key": "script-content",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-script-content",
+        "name": "JavaScript content must meet standard. htmlint tries to use config.linters.script as the lint method for script content."
+    },
+    {
+        "key": "script-in-tail",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-script-in-tail",
+        "name": "All JavaScript content are recommended to be imported in the tail of <body>, which may improve the first-screen performance. If found not, it reports."
+    },
+    {
+        "key": "self-close",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-self-close",
+        "name": "Check if void elements close themeselves with /. If found not matching config (close / no-close), it reports."
+    },
+    {
+        "key": "spec-char-escape",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-spec-char-escape",
+        "name": "Special characters (<, >) in text content must be escaped. If found not, it reports."
+    },
+    {
+        "key": "style-content",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-style-content",
+        "name": "CSS content (content of <style>) must meet standard. htmlint tries to use config.linters.style as the lint method for CSS content."
+    },
+    {
+        "key": "style-disabled",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-style-disabled",
+        "name": "<style> should not be used, while using individual CSS file instead will improve maintainability. If <style> found, it reports."
+    },
+    {
+        "key": "tag-pair",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-tag-pair",
+        "name": "Tags (except void elements) must be paired. If found not, it reports."
+    },
+    {
+        "key": "tagname-lowercase",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-tagname-lowercase",
+        "name": "Tag names must be lowercased. If found not, it reports."
+    },
+    {
+        "key": "title-required",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-title-required",
+        "name": "<title> required and it should be just after <meta> charset (<meta charset=\"...\">). If not found or in wrong position, it reports."
+    },
+    {
+        "key": "unique-id",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-unique-id",
+        "name": "Ids (value of attribute id) should be unique in page. If found duplicated ids, it reports."
+    },
+    {
+        "key": "no-duplication-id-and-name",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-no-duplication-id-and-name",
+        "name": "Element's id and name should be unique in page. If found not, it reports."
+    },
+    {
+        "key": "viewport",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-viewport",
+        "name": "<meta> for viewport (<meta name=\"viewport\" content=\"...\">) is required. If not found, it reports."
+    },
+    {
+        "key": "label-for-input",
+        "url": "https://github.com/mewjs/mew/packages/htmlint/wiki/rule-label-for-input",
+        "name": "<input> should be associated with <label>. If found not, it reports."
+    }
+]

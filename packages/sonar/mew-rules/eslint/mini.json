@@ -1,0 +1,212 @@
+[
+    {
+      "key": "mini/comment-directive",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/comment-directive.md",
+      "name": "correct comment directive"
+    },
+    {
+      "key": "mini/xml-indent",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/xml-indent.md",
+      "name": "检查小程序 xml 代码缩进是否正确，包含标签和属性缩进。"
+    },
+    {
+      "key": "mini/no-parsing-error",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-parsing-error.md",
+      "name": "检查是否存在解析错误，不允许出现 xml 解析错误。"
+    },
+    {
+      "key": "mini/app-config-acceptable",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/app-config-acceptable.md",
+      "name": "检查 app.json 配置项是否有缺失，配置项是否合理。"
+    },
+    {
+      "key": "mini/sitemap-acceptable",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/sitemap-acceptable.md",
+      "name": "检查 sitemap.json 配置项是否有缺失，配置项是否合理。"
+    },
+    {
+      "key": "mini/no-duplicate-attributes",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-duplicate-attributes.md",
+      "name": "检查重复的属性，不允许重复的属性值。"
+    },
+    {
+      "key": "mini/no-useless-mustache",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-useless-mustache.md",
+      "name": "检查 mustache 标签是否包含无用的表达式。"
+    },
+    {
+      "key": "mini/component-nesting",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/component-nesting.md",
+      "name": "检查容器组件、文本组件、自闭合组件等嵌套规则是否合理。"
+    },
+    {
+      "key": "mini/not-empty",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/not-empty.md",
+      "name": "检查小程序模板文件是否空文件。"
+    },
+    {
+      "key": "mini/valid-for",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/valid-for.md",
+      "name": "检查 for 指令。"
+    },
+    {
+      "key": "mini/valid-if",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/valid-if.md",
+      "name": "检查 if 指令。"
+    },
+    {
+      "key": "mini/valid-elif",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/valid-elif.md",
+      "name": "检查 elif 是否有匹配的 if 或者 elif 指令。"
+    },
+    {
+      "key": "mini/valid-else",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/valid-else.md",
+      "name": "检查 else 是否有匹配的 if 或者 elif 指令。"
+    },
+    {
+      "key": "mini/no-confusing-for-if",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-confusing-for-if.md",
+      "name": "检查 for,if 组件嵌套关系，如果 if 指令组件依赖 for 指令中依赖的变量，则会导致组件渲染冲突。"
+    },
+    {
+      "key": "mini/valid-bind",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/valid-bind.md",
+      "name": "检查绑定的事件名称以及事件值。"
+    },
+    {
+      "key": "mini/no-static-inline-styles",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-static-inline-styles.md",
+      "name": "默认设置为不允许 内联静态样式，允许内联动态样式。"
+    },
+    {
+      "key": "mini/component-attributes",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/component-attributes.md",
+      "name": "通过代码注释开启或者禁用某些检查规则，仅检查静态属性，动态属性，如 directive，或者 属性值为表达式不进行检查。"
+    },
+    {
+      "key": "mini/max-attributes-per-line",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/max-attributes-per-line.md",
+      "name": "为提高代码可读性而设定每行代码属性个数上限，超过设定上限需要换行。"
+    },
+    {
+      "key": "mini/html-end-tags",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/html-end-tags.md",
+      "name": "检查 wxml 文件的代码是否有闭合标签。"
+    },
+    {
+      "key": "mini/no-multi-spaces",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-multi-spaces.md",
+      "name": "此规则不允许存在不用于缩进的多个空格。"
+    },
+    {
+      "key": "mini/html-closing-bracket-newline",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/html-closing-bracket-newline.md",
+      "name": "用户可以自定义闭合标签的换行偏好。该规则校验 wxml 文件中闭合标签换行是否正确。"
+    },
+    {
+      "key": "mini/no-duplicate-else-if",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-duplicate-else-if.md",
+      "name": "不允许在同一个wx:if / wx:elif 链中出现重复条件。"
+    },
+    {
+      "key": "mini/no-restricted-static-attribute",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-restricted-static-attribute.md",
+      "name": "该规则允许用户定义其应用中限制使用的指定属性名。"
+    },
+    {
+      "key": "mini/singleline-html-element-content-newline",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/singleline-html-element-content-newline.md",
+      "name": "强制对行内元素的内容前后进行换行。"
+    },
+    {
+      "key": "mini/html-comment-content-newline",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/html-comment-content-newline.md",
+      "name": "此规则强制html注释<!--后和-->前的换行保持一致，可以设置换行前存在特殊字符。"
+    },
+    {
+      "key": "mini/html-comment-content-spacing",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/html-comment-content-spacing.md",
+      "name": "强制html注释<!--后和-->前空格保持一致，可以设置空格前存在特殊字符。"
+    },
+    {
+      "key": "mini/array-bracket-spacing",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/array-bracket-spacing.md",
+      "name": "强制数组开括号后和闭括号前的空格保持一致。"
+    },
+    {
+      "key": "mini/camelcase",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/camelcase.md",
+      "name": "将检查表达式中变量是否有下滑线_, 并强制使用驼峰命名，忽略变量的前导和尾随下划线，仅检查变量名中间的下划线。"
+    },
+    {
+      "key": "mini/comma-dangle",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/comma-dangle.md",
+      "name": "检查数组和对象内部末尾的逗号。"
+    },
+    {
+      "key": "mini/dot-location",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/dot-location.md",
+      "name": "检查属性调用时点号的位置。"
+    },
+    {
+      "key": "mini/eqeqeq",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/eqeqeq.md",
+      "name": "检查是否使用全等号===。"
+    },
+    {
+      "key": "mini/key-spacing",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/key-spacing.md",
+      "name": "检查对象内部属性的键间距。"
+    },
+    {
+      "key": "mini/mustache-interpolation-spacing",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/mustache-interpolation-spacing.md",
+      "name": "表达式开标签{{后和闭标签}}前，禁止出现或强制加上空格。"
+    },
+    {
+      "key": "mini/no-spaces-around-equal-signs-in-attribute",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-spaces-around-equal-signs-in-attribute.md",
+      "name": "不允许标签属性等号两边存在空格。"
+    },
+    {
+      "key": "mini/no-sparse-arrays",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-sparse-arrays.md",
+      "name": "不允许字面量数组中逗号前没有元素，即不允许稀疏数组。它不适用于最后一个元素后面的逗号。"
+    },
+    {
+      "key": "mini/object-curly-spacing",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/object-curly-spacing.md",
+      "name": "检查对象左括号{后和右括号前}的空格。"
+    },
+    {
+      "key": "mini/space-in-parens",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/space-in-parens.md",
+      "name": "不允许开括号后和闭括号前存在空格。"
+    },
+    {
+      "key": "mini/space-unary-ops",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/space-unary-ops.md",
+      "name": "检查一元运算符-，!，!!后的空格。"
+    },
+    {
+      "key": "mini/no-unknown-component-usage",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-unknown-component-usage.md",
+      "name": "检查未在usingComponents注册的自定义组件。"
+    },
+    {
+      "key": "mini/no-useless-concat",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/no-useless-concat.md",
+      "name": "禁止不必要的字符串字面量连接。"
+    },
+    {
+      "key": "mini/space-infix-ops",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/space-infix-ops.md",
+      "name": "强制运算符+、-、*、/、%、||、&&、&、|、?:、>、<、>=、<=、<<、>>前后必须加上空格。"
+    },
+    {
+      "key": "mini/resolve-src",
+      "url": "https://github.com/mewjs/mew/blob/main/packages/eslint-plugin-mini/docs/rules/resolve-src.md",
+      "name": "检查import/include/wxs 标签引入的 src 文件是否存在。"
+    }
+]
