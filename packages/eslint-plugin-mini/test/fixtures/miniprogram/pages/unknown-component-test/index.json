@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "custom-component": "path/to/custom/component"
+    }
+}

@@ -1,0 +1,14 @@
+<view>
+    <button class="btn" bindtap="btn1" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onTap">
+        按钮
+    </button>
+    <icon type="success" size="23" color="" />
+</view>
+<wxs module="foo">
+var some_msg = "hello world";
+module.exports = {
+    msg: some_msg
+}
+</wxs>
+<view class="class"> {{foo.msg}} </view>
+<button type=""></button>
