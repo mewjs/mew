@@ -1,0 +1,19 @@
+extends: ["plugin:@mewjs/typescript"]
+parserOptions:
+    project: null
+rules:
+    '@typescript-eslint/consistent-type-exports': 0
+    '@typescript-eslint/no-meaningless-void-operator': 0
+    '@typescript-eslint/no-redundant-type-constituents': 0
+    '@typescript-eslint/no-throw-literal': 0
+    '@typescript-eslint/no-unnecessary-boolean-literal-compare': 0
+    '@typescript-eslint/no-unnecessary-type-arguments': 0
+    '@typescript-eslint/non-nullable-type-assertion-style': 0
+    '@typescript-eslint/prefer-includes': 0
+    '@typescript-eslint/prefer-reduce-type-parameter': 0
+    '@typescript-eslint/prefer-return-this-type': 0
+    '@typescript-eslint/prefer-string-starts-ends-with': 0
+    '@typescript-eslint/promise-function-async': 0
+    '@typescript-eslint/require-array-sort-compare': 0
+    '@typescript-eslint/require-await': 0
+

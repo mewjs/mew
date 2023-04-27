@@ -1,0 +1,17 @@
+{
+  "name": "@mewjs/styleguide",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "基于 [EFE 前端代码规范](https://github.com/ecomfe/spec) 修改。",
+  "scripts": {
+    "test": "echo \"@mewjs/styleguide has no test.\" && exit 0",
+    "build": "echo \"@mewjs/styleguide has no build.\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mewjs/mew.git",
+    "directory": "packages/styleguide"
+  },
+"keywords": ["styleguide", "standard"],
+  "license": "MIT"
+}

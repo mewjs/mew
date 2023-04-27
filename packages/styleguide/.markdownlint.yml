@@ -1,0 +1,9 @@
+
+first-header-h1: false
+no-trailing-punctuation: false
+first-line-h1: false
+line-length: false
+ul-indent:
+  indent: 4
+  start_indented: false
+  start_indent: 4
