@@ -1,0 +1,9 @@
+rules:
+    '@mewjs/use-hex-color': [true, {"severity": "error"}]
+    color-named: 'never'
+    property-no-vendor-prefix:
+        - true
+        -
+            severity: 'warning'
+    order/order: 0
+    order/properties-order: 0

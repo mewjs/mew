@@ -1,0 +1,12 @@
+{
+    "pages": [
+      "page/indent/index"
+    ],
+    "window": {
+      "backgroundTextStyle": 0,
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "WeChat",
+      "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
+}

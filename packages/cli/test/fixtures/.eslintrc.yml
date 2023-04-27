@@ -1,0 +1,10 @@
+extends: ['plugin:@mewjs/esnext']
+parserOptions:
+    project: null
+rules:
+    template-curly-spacing: [2, never]
+    '@babel/object-curly-spacing': [2, never]
+    '@typescript-eslint/object-curly-spacing': [2, never]
+    eslint-comments/no-unused-disable: 0
+    eslint-comments/disable-enable-pair: 0
+    eslint-comments/no-duplicate-disable: 0

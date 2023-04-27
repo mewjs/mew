@@ -1,0 +1,20 @@
+/* body css */
+body {
+    padding: 1px 2px 2px;
+    background-color: black;
+
+    /* $item-margin: 16px; */
+
+    &-color {
+        color: rgb(185, 65, 65);
+    }
+
+    /* &-element {
+        margin: 0 -$item-margin -$item-margin 0;
+    } */
+}
+
+text-gradient($pos = bottom, $frcolor = #ff3c00, $edcolor = #ff6c00) {
+    background-image: line-gradient($pos, $frcolor, $edcolor);
+    -webkit-background-clip: text;
+}

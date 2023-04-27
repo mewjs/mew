@@ -1,0 +1,9 @@
+root: true
+extends: ['plugin:@mewjs/vue3-typescript']
+parserOptions:
+    project: './test/tsconfig.json'
+env:
+    browser: true
+rules:
+    'template-curly-spacing': [2, 'never']
+    '@typescript-eslint/object-curly-spacing': [2, 'never']

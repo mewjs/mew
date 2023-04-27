@@ -1,0 +1,7 @@
+    root: true
+    extends: ['plugin:@mewjs/vue3']
+    env:
+        browser: true
+    rules:
+        'template-curly-spacing': [2, 'never']
+        '@babel/object-curly-spacing': [2, 'never']

@@ -1,0 +1,16 @@
+<!-- pages/index/index.axml -->
+<view a:if="{{'true'}}">
+    WEBVIEW
+</view>
+<view a:elif="{{view == 'APP'}}">
+    APP
+</view>
+<view a:else>
+    alipay
+</view>
+<view onTap="add">
+    {{count}}
+</view>
+<view a:for="{{itemFixable }}">
+    {{item}}
+</view>

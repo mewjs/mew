@@ -1,0 +1,10 @@
+extends: ["plugin:@mewjs/typescript"]
+env:
+    node: true
+globals:
+    VERSION: true
+parserOptions:
+    project: ['./tsconfig.json', './test/tsconfig.json']
+rules:
+    no-console: 0
+    import/no-dynamic-require: 0

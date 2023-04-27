@@ -1,0 +1,13 @@
+/* body css */
+body {
+    padding: 1px 2px 2px;
+    background-color: black;
+
+    &-color {
+        color: rgb(185, 65, 65);
+    }
+
+    &-h2 {
+        font-family: "Helvetica Neue", "Arial New", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
+    }
+}

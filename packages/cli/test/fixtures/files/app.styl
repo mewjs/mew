@@ -1,0 +1,15 @@
+/* body css */
+body {
+    padding: 1px 2px 2px;
+    background-color: black;
+
+    &-color {
+        color: rgb(185, 65, 65);
+    }
+}
+
+/* stylelint-disable property-no-vendor-prefix */
+text-gradient($pos = bottom, $frcolor = #ff3c00, $edcolor = #ff6c00) {
+    background-image: line-gradient($pos, $frcolor, $edcolor);
+    -webkit-background-clip: text;
+}

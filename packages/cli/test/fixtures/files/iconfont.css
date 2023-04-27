@@ -1,0 +1,15 @@
+/**
+ * font-face 测试用例
+ */
+
+@font-face {
+    font-family: iconfont;
+    font-display: auto;
+    font-style: normal;
+    src: url(./iconfont.eot?t=1561821154036); /* IE9 */
+    src: url(./iconfont.eot?t=1561821154036#iefix) format("embedded-opentype"),
+        url(./iconfont.woff2?t=1561821154036) format("woff2"),
+        url(./iconfont.woff?t=1561821154036) format("woff"),
+        url(./iconfont.ttf?t=1561821154036) format("truetype"),
+        url(./iconfont.svg?t=1561821154036#iconfont) format("svg");
+}

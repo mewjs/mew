@@ -1,0 +1,16 @@
+<!-- pages/index/index.swan -->
+<view s-if="{{'true'}}">
+    WEBVIEW
+</view>
+<view s-elif="{{view == 'APP'}}">
+    APP
+</view>
+<view s-else>
+    alipay
+</view>
+<view onTap="add">
+    {{count}}
+</view>
+<view s-for="{{itemFixable }}">
+    {{item}}
+</view>

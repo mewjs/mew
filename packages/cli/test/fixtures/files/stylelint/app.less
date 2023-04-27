@@ -1,0 +1,125 @@
+/* body less */
+@item-margin: 3px;
+@my-selector: banner;
+@property: color;
+@primary:  green;
+@secondary: blue;
+@switch: light;
+@detached-ruleset: {
+    background: #ccc;
+}
+@deg: 90deg;
+
+body {
+    color: black;
+    background-@{property}: $color;
+    margin: 0 -@item-margin -@item-margin 0;
+
+    .@{my-selector} {
+        font-weight: 600;
+        @{property}: rgb(0, 0, 0);
+        line-height: 40px;
+        margin: 0 auto;
+    }
+
+    .mixin(dark; @color) {
+        color: darken(@color, 10%);
+    }
+
+    .header {
+        .menu {
+            border-radius: 5px;
+
+            .no-borderradius & {
+                background-image: url(images/button-background.png);
+            }
+        }
+    }
+
+    // .Foo {
+    //     background-image: linear-gradient(-@deg, #ccc, #eee);
+    // }
+
+    .link {
+        &,
+        &ish {
+            color: #fff;
+        }
+
+        && {
+            color: #ccc;
+        }
+
+        & + & {
+            color: #0ee;
+        }
+
+        & & {
+            color: #0e0;
+        }
+    }
+
+    a {
+        color: @secondary;
+
+        &:hover {
+            @{property}: @primary;
+        }
+    }
+
+    &-section {
+        @color: primary;
+
+        &-element {
+            color: @@color;
+            .border-radius(@radius) {
+                border-radius: @radius;
+            }
+        }
+    }
+
+    &-color {
+        color: #b94141;
+    }
+
+    &-h2 {
+        font-family: "Helvetica Neue", "Arial New", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
+    }
+
+    nav ul {
+        &:extend(.inline);
+        background: @primary;
+
+        :nth-child(1n+3) {
+            color: #666;
+        }
+
+        .child:extend(:nth-child(n+3)) {
+            font-size: 14px;
+        }
+    }
+
+    .inline {
+        padding: 10px 10px;
+        color: @secondary;
+    }
+
+    .class {
+        .mixin(@switch; #888);
+    }
+
+    .mixin() {
+        @width:  100%;
+        @height: 200px;
+    }
+
+    .caller {
+        .mixin();
+        width: @width;
+        height: @height;
+    }
+
+    .top {
+        @detached-ruleset();
+    }
+}

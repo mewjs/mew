@@ -1,0 +1,5 @@
+extends: ['plugin:@mewjs/typescript']
+rules:
+    'import/unambiguous': 0
+    'template-curly-spacing': [2, 'never']
+    '@typescript-eslint/object-curly-spacing': [2, 'never']

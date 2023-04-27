@@ -1,0 +1,5 @@
+root: true
+extends: ['plugin:@mewjs/esnext']
+env:
+    commonjs: true
+    node: true

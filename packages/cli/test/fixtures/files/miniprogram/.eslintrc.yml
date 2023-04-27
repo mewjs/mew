@@ -1,0 +1,9 @@
+root: true
+extends: ['plugin:@mewjs/miniprogram']
+parserOptions:
+    parser: '@babel/eslint-parser'
+    ecmaVersion: 2020
+    sourceType: 'module'
+rules:
+    'template-curly-spacing': [2, 'never']
+    '@typescript-eslint/object-curly-spacing': [2, 'never']

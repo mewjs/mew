@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>测试 </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- htmlint-disable title-required -->
+</head>
+<body>
+    <noscript>
+        <strong class="warning">We're sorry but vue demo doesn't work properly with out JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <script>
+        var a = 1;
+        document.write("<h1>Hello World!</h1>")
+    </script>
+    <script>
+function hello(name) {
+                return `welcome ${name}!`;
+        }
+        if (navigator.cookieEnabled) {
+            document.cookie = 'NOJS=;expires=Sat, 01 Jan 2000 00:00:00 GMT';
+        }</script>
+    <script>/* eslint-disable no-unused-vars, no-undef */ var welcome = hello('chris');</script>
+    <script>document.write('<p> this line should have more than 120 chars to test whether the max-len rule is working.<p>');
+    </script>
+    <script src="//github.com/mewjs/mew/test.js"></script>
+    <script>/* eslint-disable no-unused-vars */ var [a, b] = arr;</script>
+</body>
+</html>

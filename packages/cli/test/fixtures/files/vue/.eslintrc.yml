@@ -1,0 +1,5 @@
+root: true
+extends: ['plugin:@mewjs/vue']
+rules:
+    'template-curly-spacing': [2, 'never']
+    '@typescript-eslint/object-curly-spacing': [2, 'never']

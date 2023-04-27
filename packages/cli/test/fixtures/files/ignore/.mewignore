@@ -1,0 +1,5 @@
+# dir
+ignored/
+lintText/
+# test
+glob.*

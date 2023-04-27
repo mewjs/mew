@@ -1,0 +1,4 @@
+interface Body {
+    font string;
+}
+

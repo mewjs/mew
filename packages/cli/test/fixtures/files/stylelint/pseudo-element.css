@@ -1,0 +1,39 @@
+/**
+ * @file 特殊伪类
+ */
+
+:when(header) {
+    color: #000;
+}
+
+:where(header) {
+    color: #000;
+}
+
+:has(img) {
+    color: #000;
+}
+
+:nth-last-of-type(p) {
+    color: #000;
+}
+
+:host-context(h1) {
+    color: #000;
+}
+
+:host(.special-custom-element) {
+    color: #000;
+}
+
+:global(header) p:hover {
+    color: #000;
+}
+
+:not(header) p:hover {
+    color: #000;
+}
+
+:is(header) p:hover {
+    color: #000;
+}
