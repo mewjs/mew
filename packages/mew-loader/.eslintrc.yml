@@ -1,0 +1,8 @@
+extends:
+    - 'plugin:@mewjs/typescript'
+env:
+    commonjs: true
+rules:
+    'import/no-commonjs': 0
+    'import/unambiguous': 0
+    '@babel/no-invalid-this': 0

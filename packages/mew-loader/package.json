@@ -1,0 +1,60 @@
+{
+  "name": "@mewjs/loader",
+  "version": "1.1.1",
+  "description": "mew loader for webpack",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prebuild": "rimraf ./lib",
+    "build": "tsc",
+    "test": "jest test/*.spec.ts",
+    "lint": "mew ./src --rule"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mewjs/mew.git",
+    "directory": "packages/mew-loader"
+  },
+  "keywords": [
+    "mew",
+    "lint",
+    "webpack",
+    "mew-loader"
+  ],
+  "author": {
+    "name": "dafo",
+    "email": "wfsr@foxmail.com"
+  },
+  "peerDependencies": {
+    "@mewjs/cli": "*",
+    "webpack": "3.x || 4.x || 5.x"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "resolve-glob": "^1.0.0",
+    "typescript": "~4.5.4"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/register": "^7.8.3",
+    "@mewjs/cli": "*",
+    "@types/jest": "^27.0.2",
+    "@types/js-yaml": "^4.0.4",
+    "@types/mock-fs": "^4.13.1",
+    "@types/node": "^16.11.7",
+    "@types/webpack": "^4.41.0",
+    "@types/loader-utils": "^2.0.2",
+    "jest": "^27.3.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.7",
+    "typescript": "~4.5.4",
+    "webpack3": "npm:webpack@3",
+    "webpack": "4.x",
+    "webpack5": "npm:webpack@5"
+  }
+}
