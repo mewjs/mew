@@ -1,0 +1,12 @@
+{
+    "name": "Empty tag name",
+    "input": "< ></ >",
+    "expected": [
+        {
+            "event": "text",
+            "startIndex": 0,
+            "endIndex": 6,
+            "data": ["< ></ >"]
+        }
+    ]
+}

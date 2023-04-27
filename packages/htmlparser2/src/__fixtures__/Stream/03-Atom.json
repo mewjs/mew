@@ -1,0 +1,6 @@
+{
+    "name": "Atom feed",
+    "options": { "xmlMode": true },
+    "file": "Atom_Example.xml",
+    "useSnapshot": true
+}

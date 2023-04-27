@@ -1,0 +1,12 @@
+{
+    "name": "leading lt",
+    "input": ">a>",
+    "expected": [
+        {
+            "event": "text",
+            "startIndex": 0,
+            "endIndex": 2,
+            "data": [">a>"]
+        }
+    ]
+}

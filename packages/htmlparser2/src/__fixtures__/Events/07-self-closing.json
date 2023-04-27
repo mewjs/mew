@@ -1,0 +1,60 @@
+{
+    "name": "Self-closing tags",
+    "input": "<a href=http://test.com/>Foo</a><hr / >",
+    "expected": [
+        {
+            "event": "opentagname",
+            "startIndex": 0,
+            "endIndex": 2,
+            "data": ["a"]
+        },
+        {
+            "event": "attribute",
+            "startIndex": 3,
+            "endIndex": 24,
+            "data": ["href", "http://test.com/", null]
+        },
+        {
+            "event": "opentag",
+            "startIndex": 0,
+            "endIndex": 24,
+            "data": [
+                "a",
+                {
+                    "href": "http://test.com/"
+                },
+                false
+            ]
+        },
+        {
+            "event": "text",
+            "startIndex": 25,
+            "endIndex": 27,
+            "data": ["Foo"]
+        },
+        {
+            "event": "closetag",
+            "startIndex": 28,
+            "endIndex": 31,
+            "data": ["a", false]
+        },
+        {
+            "event": "opentagname",
+            "startIndex": 32,
+            "endIndex": 35,
+            "data": ["hr"]
+        },
+        {
+            "event": "opentag",
+            "startIndex": 32,
+            "endIndex": 38,
+            "data": ["hr", {}, false]
+        },
+        {
+            "event": "closetag",
+            "startIndex": 32,
+            "endIndex": 38,
+            "data": ["hr", true]
+        }
+    ]
+}

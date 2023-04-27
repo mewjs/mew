@@ -1,0 +1,12 @@
+{
+    "name": "Trailing numeric entity",
+    "input": "&#53&#53",
+    "expected": [
+        {
+            "event": "text",
+            "startIndex": 0,
+            "endIndex": 7,
+            "data": ["55"]
+        }
+    ]
+}
