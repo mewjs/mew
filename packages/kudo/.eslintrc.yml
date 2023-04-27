@@ -1,0 +1,6 @@
+extends:
+    - plugin:@mewjs/typescript
+parserOptions:
+    project: ['./tsconfig.json', './test/tsconfig.json']
+rules:
+    no-console: 0
