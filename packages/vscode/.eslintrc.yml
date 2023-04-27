@@ -1,0 +1,7 @@
+extends: ['plugin:@mewjs/typescript']
+settings:
+    import/core-modules:
+        - vscode
+rules:
+    'no-unused-vars': 0
+    '@typescript-eslint/no-explicit-any': 0

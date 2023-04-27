@@ -1,0 +1,125 @@
+{
+    "File Header": {
+        "scope": "javascript,typescript,css,less,stylus,javascriptreact",
+        "prefix": "@@",
+        "body": [
+            "/**",
+            " * @file ${1:$TM_FILENAME}",
+            " * @author ${2}",
+            " */"
+        ],
+        "description": "文件头部签名"
+    },
+    "TODO": {
+        "scope": "javascript,typescript,less,stylus,javascriptreact",
+        "prefix": "@TODO",
+        "body": [
+            "// TODO: ${1}"
+        ],
+        "description": "TODO 提示"
+    },
+    "FIXME": {
+        "scope": "javascript,typescript,less,stylus,javascriptreact",
+        "prefix": "@FIXME",
+        "body": [
+            "// FIXME: ${1}"
+        ],
+        "description": "FIXME 提示"
+    },
+    "XXX": {
+        "scope": "javascript,typescript,less,stylus,javascriptreact",
+        "prefix": "@XXX",
+        "body": [
+            "// XXX: ${1}"
+        ],
+        "description": "XXX 提示"
+    },
+    "HACK": {
+        "scope": "javascript,typescript,less,stylus,javascriptreact",
+        "prefix": "@HACK",
+        "body": [
+            "// HACK: ${1}"
+        ],
+        "description": "HACK 提示"
+    },
+    "BUG": {
+        "scope": "javascript,typescript,less,stylus,javascriptreact",
+        "prefix": "@BUG",
+        "body": [
+            "// BUG: ${1}"
+        ],
+        "description": "BUG 提示"
+    },
+    "NOTE": {
+        "scope": "javascript,typescript,less,stylus,javascriptreact",
+        "prefix": "@NOTE",
+        "body": [
+            "// NOTE: ${1}"
+        ],
+        "description": "NOTE 提示"
+    },
+    "ESLINT-DISABLE": {
+        "scope": "javascript,typescript,less,stylus,javascriptreact",
+        "prefix": "@ed",
+        "body": [
+            "/* eslint-disable ${1} */"
+        ],
+        "description": "禁止 eslint 规则"
+    },
+    "ESLINT-DISABLE-NEXT": {
+        "scope": "javascript,typescript,less,stylus,javascriptreact",
+        "prefix": "@edn",
+        "body": [
+            "/* eslint-disable-next-line ${1} */"
+        ],
+        "description": "禁止 eslint 单行"
+    },
+    "STYLELINT-DISABLE": {
+        "scope": "css,less,stylus",
+        "prefix": "@sd",
+        "body": [
+            "/* stylelint-disable ${1} */"
+        ],
+        "description": "禁止 stylelint 规则"
+    },
+    "STYLELINT-DISABLE-NEXT": {
+        "scope": "css,less,stylus",
+        "prefix": "@sdn",
+        "body": [
+            "/* stylelint-disable-next-line ${1} */"
+        ],
+        "description": "禁止 stylelint 单行"
+    },
+    "HTMLINT-DISABLE": {
+        "scope": "html",
+        "prefix": "@hd",
+        "body": [
+            "<!-- htmlint-disable ${1} -->"
+        ],
+        "description": "禁止 htmlint 规则"
+    },
+    "HTMLINT-DISABLE-NEXT": {
+        "scope": "html",
+        "prefix": "@hdn",
+        "body": [
+            "<!-- htmlint-disable-next-line ${1} -->"
+        ],
+        "description": "禁止 htmlint 单行"
+    },
+    "MDLINT-DISABLE": {
+        "scope": "markdown",
+        "prefix": "@md",
+        "body": [
+            "<!-- markdownlint-disable ${1} -->"
+        ],
+        "description": "禁止 markdownlint 规则"
+    },
+    "MDLINT-DISABLE-NEXT": {
+        "scope": "markdown",
+        "prefix": "@mdn",
+        "body": [
+            "<!-- markdownlint-disable-next-line ${1} -->"
+        ],
+        "description": "禁止 markdownlint 单行/规则"
+    }
+}

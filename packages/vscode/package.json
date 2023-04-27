@@ -1,0 +1,350 @@
+{
+  "name": "vscode-mew",
+  "displayName": "Mew - Code Linter and Formatter",
+  "description": "Mew VSCode Tool",
+  "license": "MIT",
+  "version": "1.1.4",
+  "private": true,
+  "publisher": "Mew",
+  "icon": "logo.png",
+  "categories": [
+    "Formatters",
+    "Linters"
+  ],
+  "keywords": [
+    "vscode-mew",
+    "mew lint",
+    "mew format"
+  ],
+  "files": [
+    "dist",
+    "snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mewjs/mew.git",
+    "directory": "packages/vscode-mew"
+  },
+  "engines": {
+    "vscode": ">=1.65.0",
+    "node": ">=12"
+  },
+  "engineStrict": true,
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:css",
+    "onLanguage:less",
+    "onLanguage:stylus",
+    "onLanguage:sass",
+    "onLanguage:typescript",
+    "onLanguage:vue",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact",
+    "onLanguage:markdown",
+    "onLanguage:wxml",
+    "onLanguage:wxss",
+    "onLanguage:axml",
+    "onLanguage:swan"
+  ],
+  "main": "./dist/client",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Mew configuration",
+      "properties": {
+        "mew.server.nodePath": {
+          "scope": "resource",
+          "type": [
+            "string"
+          ],
+          "default": "",
+          "description": "mew module load path."
+        },
+        "mew.server.autoFixOnSave": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": false,
+          "description": "run mew fix on save or not."
+        },
+        "mew.server.openRuleDoc": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "show open mew document command."
+        },
+        "mew.server.run": {
+          "scope": "resource",
+          "type": "string",
+          "enum": [
+            "onSave",
+            "onType"
+          ],
+          "default": "onType",
+          "description": "Run the linter on save (onSave) or on type (onType)"
+        },
+        "mew.server.docLocale": {
+          "scope": "resource",
+          "type": "string",
+          "enum": [
+            "en",
+            "zh-cn"
+          ],
+          "default": "en",
+          "description": "Rule docs Language"
+        },
+        "mew.enable": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "Controls whether mew is enabled or not."
+        },
+        "mew.formatEnable": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "Enables mew as a formatter."
+        },
+        "mew.lintHtml": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Html."
+        },
+        "mew.lintJavascript": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Javascript."
+        },
+        "mew.lintTypescript": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Typescript."
+        },
+        "mew.lintCss": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Css."
+        },
+        "mew.lintLess": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Less."
+        },
+        "mew.lintStylus": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Stylus."
+        },
+        "mew.lintSass": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Sass."
+        },
+        "mew.lintVue": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Vue."
+        },
+        "mew.lintJsx": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Javascript React."
+        },
+        "mew.lintTsx": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Typescript React."
+        },
+        "mew.lintMD": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint Markdown."
+        },
+        "mew.lintMiniProgram": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": true,
+          "description": "use mew to lint mini program."
+        },
+        "mew.lintTask.enable": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": false,
+          "description": "Use Mew to Lint this WorkspaceFolder."
+        },
+        "mew.lintTask.options": {
+          "scope": "resource",
+          "type": "string",
+          "default": " . --rule",
+          "description": "Mew Lint Command line options."
+        },
+        "mew.fixTask.enable": {
+          "scope": "resource",
+          "type": "boolean",
+          "default": false,
+          "description": "Use Mew to Fix this Workspace Files."
+        },
+        "mew.fixTask.options": {
+          "scope": "resource",
+          "type": "string",
+          "default": "fix . --replace",
+          "description": "Mew Fix Command line options."
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "mew.openOutputChannel",
+        "title": "Open Mew Output Channel",
+        "category": "Output"
+      },
+      {
+        "command": "mew.fix",
+        "title": "Fix issues By Mew",
+        "category": "Fix"
+      },
+      {
+        "command": "mew.openDoc",
+        "title": "Open Mew Lint Doc",
+        "category": "Mew"
+      },
+      {
+        "command": "mew.init",
+        "title": "Init Mew Config",
+        "category": "Mew"
+      },
+      {
+        "command": "mew.toggleServer",
+        "title": "Stop or Start Mew Server",
+        "category": "Mew"
+      },
+      {
+        "command": "mew.restart",
+        "title": "Restart Mew Server",
+        "category": "Mew"
+      },
+      {
+        "command": "mew.toWeChatWebDevTools",
+        "title": "Export Mew to WeChatWebDevTools",
+        "category": "Mew"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./snippets/snippets-mew.json"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/snippets-mew.json"
+      },
+      {
+        "language": "stylus",
+        "path": "./snippets/snippets-mew.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/snippets-mew.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets-mew.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets-mew.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets-mew.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-mew.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-mew.json"
+      }
+    ],
+    "problemMatchers": [
+      {
+        "name": "mew-reporter",
+        "owner": "mew",
+        "source": "mew",
+        "fileLocation": [
+          "relative",
+          "${workspaceFolder}"
+        ],
+        "pattern": [
+          {
+            "regexp": "^mew\\s+INFO\\s+([^\\s].*\\.(?:js|jsx|ts|tsx|md|markdown|css|scss|sass|less|styl|vue|html|htm|wxml|wxss|wxs|swan|axml))",
+            "kind": "location",
+            "file": 1
+          },
+          {
+            "regexp": "^\\s+:?(\\d+):(\\d+)\\s+(error|warning)\\s+(.*?)\\s\\s+(.*)$",
+            "line": 1,
+            "column": 2,
+            "severity": 3,
+            "message": 4,
+            "code": 5,
+            "loop": true
+          }
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "prevscode:prepublish": "rimraf ./dist",
+    "vscode:prepublish": "webpack --mode production",
+    "compile": "tsc -b",
+    "watch": "tsc -b -w",
+    "pack": "npx vsce package --no-dependencies --baseImagesUrl ./",
+    "build": "pnpm run pack",
+    "webpack": "webpack --mode development",
+    "webpack-dev": "webpack --mode development --watch",
+    "test-compile": "tsc -p ./",
+    "lint": "mew ./src --rule"
+  },
+  "devDependencies": {
+    "@mewjs/cli": "*",
+    "@types/fs-extra": "9.0.3",
+    "@types/jest": "^27.0.2",
+    "@types/js-yaml": "^4.0.4",
+    "@types/mock-fs": "^4.13.1",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.65.0",
+    "copyfiles": "^2.4.1",
+    "jest": "^27.3.1",
+    "mock-fs": "^5.1.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.7",
+    "ts-loader": "^6.2.1",
+    "type-fest": "^2.8.0",
+    "typescript": "~4.5.4",
+    "vsce": "2.7.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "fs-extra": "9.0.1",
+    "strip-json-comments": "^3.1.1",
+    "vscode-languageclient": "7.0.0",
+    "vscode-languageserver": "7.0.0",
+    "vscode-languageserver-protocol": "3.16.0",
+    "vscode-languageserver-textdocument": "1.0.3",
+    "vscode-uri": "3.0.2"
+  }
+}
