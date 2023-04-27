@@ -1,0 +1,52 @@
+{
+  "name": "@mewjs/eslint-plugin",
+  "version": "1.4.4",
+  "description": "rules of mew for eslint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mewjs/mew.git",
+    "directory": "packages/eslint-plugin"
+  },
+  "main": "./index.js",
+  "files": [
+    "config",
+    "index.js"
+  ],
+  "scripts": {
+    "peers": "npm-install-peers",
+    "lint": "mew config script index.js --rule",
+    "pretest": "npm run lint",
+    "test": "node ./script/validate.js"
+  },
+  "keywords": [
+    "eslint",
+    "plugin",
+    "config",
+    "mew"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/eslint-plugin": "^7.16.5",
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0",
+    "@mewjs/eslint-plugin-mini": "~1.0.5",
+    "eslint": "^7.22.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-react-native": "^3.9.1",
+    "eslint-plugin-vue": "^7.5.0"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "2",
+    "npm-install-peers": "^1.2.2"
+  }
+}
