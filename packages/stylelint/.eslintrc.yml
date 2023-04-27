@@ -1,0 +1,15 @@
+    extends:
+        - 'plugin:@mewjs/typescript'
+    env:
+        commonjs: true
+        browser: true
+        node: true
+        jest: true
+    globals:
+        testMewRule: true
+    rules:
+        'import/unambiguous': 0
+        'import/no-commonjs': 0
+        'import/no-extraneous-dependencies': 0
+        '@typescript-eslint/no-magic-numbers': 0
+        '@typescript-eslint/no-var-requires': 0

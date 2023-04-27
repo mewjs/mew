@@ -1,0 +1,5 @@
+test/*.css
+test/*.less
+test/*.scss
+test/*.styl
+lib/

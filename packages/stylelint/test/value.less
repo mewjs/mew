@@ -1,0 +1,36 @@
+/**
+ * @file less value validate
+ */
+
+:root {
+    --color: #ccc;
+}
+
+@color: #ccc;
+
+.box-shadow(@style, @c) when (iscolor(@c)) {
+    box-shadow: @style @c;
+    box-shadow: @style @c;
+}
+
+.Foo {
+    .color(@color);
+}
+
+.body {
+    background-color: 1px var(--color);
+    background-color: @color;
+    transform: translate(50px, 100px);
+    transform: is(10deg);
+
+    background: url("./url") 1px 1px;
+    background-position: 10% 10%;
+    padding: 1px;
+
+    color: 1px;
+    margin: 1px 2px 3px 4px 5px;
+
+    div {
+        .box-shadow(0 0 5px, 30%);
+    }
+}

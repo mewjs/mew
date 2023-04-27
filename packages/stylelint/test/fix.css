@@ -1,0 +1,10 @@
+/**
+ * @file fix.css
+ */
+
+/* stylelint-disable declaration-colon-space-after */
+
+.body {
+    border:  1px;
+    color: #f00;
+}
