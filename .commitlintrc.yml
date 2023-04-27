@@ -41,22 +41,23 @@ rules:
         - 2
         - always
         -
-            - mew
-            - styleguide
-            - eslint-plugin
-            - mpxml-eslint-parser
-            - eslint-plugin-mini
+            - cli
             - dom
+            - eslint-plugin
+            - eslint-plugin-mini
+            - styleguide
+            - htmlint
             - htmlparser2
             - html-code-gen
             - html-nest-rule
-            - manis
-            - htmlint
-            - stylelint
-            - cli
-            - vscode
+            - kudo
             - loader
+            - manis
+            - mpxml-eslint-parser
+            - vite
+            - vscode
             - sonar
+            - stylelint
 
 
     scope-case:
