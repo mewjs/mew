@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>standard file</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+    <img src="test">
+    <img src='test'>
+    <img src=test>
+    <input type="text" value='' placeholder=xxx disabled self-defined-attr>
+    <img self-defined:attribute>
+    <img self-defined:attribute class="test">
+    <img self-defined:attribute=true>
+    <img self-defined:attribute="true">
+    <self:defined id="a" class='b' self-defined:attribute></self:defined>
+    <!-- htmlint-disable attr-value-double-quotes -->
+    <img src='test'>
+</body>
+</html>

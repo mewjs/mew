@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "strictNullChecks": false,
+    "lib": ["ESNext", "DOM"],
+    "outDir": "./lib",
+    "types": [
+      "node",
+      "jest"
+    ]
+  },
+  "include": ["src"]
+}

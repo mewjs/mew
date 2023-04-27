@@ -1,0 +1,68 @@
+{
+  "name": "@mewjs/htmlint",
+  "version": "1.0.6",
+  "description": "html hint tool, focused on semantic code style.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "htmlint": "./bin/htmlint"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+"dependencies": {
+    "@mewjs/html-code-gen": "~1.0.2",
+    "@mewjs/html-nest-rule": "~1.0.2",
+    "@mewjs/manis": "~2.0.1",
+    "@mewjs/dom": "~1.0.2",
+    "@mewjs/htmlparser2": "~1.0.2",
+    "css-select": "^4.1.3",
+    "cssbeautify": "^0.3.1",
+    "differ-cli": "^0.3.0",
+    "domelementtype": "^2.2.0",
+    "domhandler": "^4.3.0",
+    "jformatter": "stable",
+    "lodash-es": "^4.17.21",
+    "walk": "^2.3.9",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/cssbeautify": "^0.3.2",
+    "@types/events": "^3.0.0",
+    "@types/jest": "^27.0.2",
+    "@types/js-yaml": "^4.0.4",
+    "@types/mock-fs": "^4.13.1",
+    "@types/node": "^16.11.7",
+    "@types/walk": "^2.3.1",
+    "coveralls": "^2.11.8",
+    "emmet": "^1.3.2",
+    "jest": "^27.3.1",
+    "mock-fs": "^5.1.2",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.7.7",
+    "ts-jest": "^27.0.7",
+    "typescript": "~4.5.4"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "lint": "mew src test --type=js --rule",
+    "test": "jest",
+    "prebuild": "rimraf lib",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mewjs/mew.git",
+    "directory": "packages/htmlint"
+  },
+"keywords": [
+    "html",
+    "hint",
+    "lint",
+    "semantic"
+  ],
+  "license": "MIT"
+}
