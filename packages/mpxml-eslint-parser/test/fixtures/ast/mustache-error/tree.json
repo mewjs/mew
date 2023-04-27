@@ -1,0 +1,71 @@
+[
+    {
+        "type": "XDocumentFragment",
+        "text": "{{ a < b}}\n\n<block>\n    {0}\n    {{a.b.c\n    {{d}\n    ad}}\n</block>\n",
+        "children": [
+            {
+                "type": "XExpressionContainer",
+                "text": "{{ a < b}}",
+                "children": [
+                    {
+                        "type": "BinaryExpression",
+                        "text": "a < b",
+                        "children": [
+                            {
+                                "type": "Identifier",
+                                "text": "a",
+                                "children": []
+                            },
+                            {
+                                "type": "Identifier",
+                                "text": "b",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<block>\n    {0}\n    {{a.b.c\n    {{d}\n    ad}}\n</block>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<block>",
+                        "children": []
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    {0}\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{a.b.c\n    {{d}\n    ad}}",
+                        "children": []
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n",
+                        "children": []
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</block>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./lib",
+    "strictNullChecks": false,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+      "src"
+  ]
+}

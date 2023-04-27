@@ -1,0 +1,901 @@
+{
+    "type": "Program",
+    "start": 0,
+    "end": 0,
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 0
+        }
+    },
+    "range": [
+        0,
+        0
+    ],
+    "body": [],
+    "sourceType": "script",
+    "comments": [],
+    "tokens": [],
+    "templateBody": {
+        "type": "XDocumentFragment",
+        "range": [
+            0,
+            71
+        ],
+        "loc": {
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "end": {
+                "line": 4,
+                "column": 0
+            }
+        },
+        "children": [
+            {
+                "type": "XElement",
+                "range": [
+                    0,
+                    71
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 0
+                    }
+                },
+                "name": "block",
+                "rawName": "block",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "startTag": {
+                    "type": "XStartTag",
+                    "range": [
+                        0,
+                        7
+                    ],
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 7
+                        }
+                    },
+                    "selfClosing": false,
+                    "attributes": []
+                },
+                "children": [
+                    {
+                        "type": "XText",
+                        "range": [
+                            7,
+                            12
+                        ],
+                        "loc": {
+                            "start": {
+                                "line": 1,
+                                "column": 7
+                            },
+                            "end": {
+                                "line": 2,
+                                "column": 4
+                            }
+                        },
+                        "value": "\n    "
+                    },
+                    {
+                        "type": "XElement",
+                        "range": [
+                            12,
+                            37
+                        ],
+                        "loc": {
+                            "start": {
+                                "line": 2,
+                                "column": 4
+                            },
+                            "end": {
+                                "line": 2,
+                                "column": 29
+                            }
+                        },
+                        "name": "view",
+                        "rawName": "view",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "startTag": {
+                            "type": "XStartTag",
+                            "range": [
+                                12,
+                                30
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 4
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 22
+                                }
+                            },
+                            "selfClosing": false,
+                            "attributes": [
+                                {
+                                    "type": "XAttribute",
+                                    "range": [
+                                        18,
+                                        29
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 2,
+                                            "column": 10
+                                        },
+                                        "end": {
+                                            "line": 2,
+                                            "column": 21
+                                        }
+                                    },
+                                    "directive": false,
+                                    "key": {
+                                        "type": "XIdentifier",
+                                        "range": [
+                                            18,
+                                            19
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 2,
+                                                "column": 10
+                                            },
+                                            "end": {
+                                                "line": 2,
+                                                "column": 11
+                                            }
+                                        },
+                                        "name": "a",
+                                        "rawName": "a"
+                                    },
+                                    "value": [
+                                        {
+                                            "type": "XLiteral",
+                                            "range": [
+                                                21,
+                                                28
+                                            ],
+                                            "loc": {
+                                                "start": {
+                                                    "line": 2,
+                                                    "column": 13
+                                                },
+                                                "end": {
+                                                    "line": 2,
+                                                    "column": 20
+                                                }
+                                            },
+                                            "value": "{{cond}"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "children": [],
+                        "endTag": {
+                            "type": "XEndTag",
+                            "range": [
+                                30,
+                                37
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 2,
+                                    "column": 22
+                                },
+                                "end": {
+                                    "line": 2,
+                                    "column": 29
+                                }
+                            }
+                        },
+                        "variables": []
+                    },
+                    {
+                        "type": "XText",
+                        "range": [
+                            37,
+                            42
+                        ],
+                        "loc": {
+                            "start": {
+                                "line": 2,
+                                "column": 29
+                            },
+                            "end": {
+                                "line": 3,
+                                "column": 4
+                            }
+                        },
+                        "value": "\n    "
+                    },
+                    {
+                        "type": "XElement",
+                        "range": [
+                            42,
+                            70
+                        ],
+                        "loc": {
+                            "start": {
+                                "line": 3,
+                                "column": 4
+                            },
+                            "end": {
+                                "line": 3,
+                                "column": 32
+                            }
+                        },
+                        "name": "view",
+                        "rawName": "view",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "startTag": {
+                            "type": "XStartTag",
+                            "range": [
+                                42,
+                                63
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 4
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 25
+                                }
+                            },
+                            "selfClosing": false,
+                            "attributes": [
+                                {
+                                    "type": "XAttribute",
+                                    "range": [
+                                        48,
+                                        62
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 3,
+                                            "column": 10
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "column": 24
+                                        }
+                                    },
+                                    "directive": true,
+                                    "key": {
+                                        "type": "XDirectiveKey",
+                                        "range": [
+                                            48,
+                                            53
+                                        ],
+                                        "loc": {
+                                            "start": {
+                                                "line": 3,
+                                                "column": 10
+                                            },
+                                            "end": {
+                                                "line": 3,
+                                                "column": 15
+                                            }
+                                        },
+                                        "name": {
+                                            "type": "XIdentifier",
+                                            "range": [
+                                                48,
+                                                53
+                                            ],
+                                            "loc": {
+                                                "start": {
+                                                    "column": 10,
+                                                    "line": 3
+                                                },
+                                                "end": {
+                                                    "column": 15,
+                                                    "line": 3
+                                                }
+                                            },
+                                            "name": "if",
+                                            "rawName": "wx:if"
+                                        },
+                                        "argument": null,
+                                        "modifiers": null
+                                    },
+                                    "value": [
+                                        {
+                                            "type": "XLiteral",
+                                            "range": [
+                                                55,
+                                                61
+                                            ],
+                                            "loc": {
+                                                "start": {
+                                                    "line": 3,
+                                                    "column": 17
+                                                },
+                                                "end": {
+                                                    "line": 3,
+                                                    "column": 23
+                                                }
+                                            },
+                                            "value": "{{cond"
+                                        }
+                                    ],
+                                    "prefix": "wx:"
+                                }
+                            ]
+                        },
+                        "children": [],
+                        "endTag": {
+                            "type": "XEndTag",
+                            "range": [
+                                63,
+                                70
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 3,
+                                    "column": 25
+                                },
+                                "end": {
+                                    "line": 3,
+                                    "column": 32
+                                }
+                            }
+                        },
+                        "variables": []
+                    },
+                    {
+                        "type": "XText",
+                        "range": [
+                            70,
+                            71
+                        ],
+                        "loc": {
+                            "start": {
+                                "line": 3,
+                                "column": 32
+                            },
+                            "end": {
+                                "line": 4,
+                                "column": 0
+                            }
+                        },
+                        "value": "\n"
+                    }
+                ],
+                "endTag": null,
+                "variables": []
+            }
+        ],
+        "tokens": [
+            {
+                "type": "HTMLTagOpen",
+                "range": [
+                    0,
+                    6
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 6
+                    }
+                },
+                "value": "block"
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    6,
+                    7
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 6
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 7
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    7,
+                    12
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 7
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 4
+                    }
+                },
+                "value": "\n    "
+            },
+            {
+                "type": "HTMLTagOpen",
+                "range": [
+                    12,
+                    17
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 9
+                    }
+                },
+                "value": "view"
+            },
+            {
+                "type": "HTMLIdentifier",
+                "range": [
+                    18,
+                    19
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 10
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 11
+                    }
+                },
+                "value": "a"
+            },
+            {
+                "type": "HTMLAssociation",
+                "range": [
+                    19,
+                    20
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 12
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLQuote",
+                "range": [
+                    20,
+                    21
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 12
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 13
+                    }
+                },
+                "value": "\""
+            },
+            {
+                "type": "XExpressionStart",
+                "range": [
+                    21,
+                    23
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 13
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 15
+                    }
+                },
+                "value": "{{"
+            },
+            {
+                "type": "HTMLLiteralText",
+                "range": [
+                    23,
+                    28
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 15
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 20
+                    }
+                },
+                "value": "cond}"
+            },
+            {
+                "type": "HTMLQuote",
+                "range": [
+                    28,
+                    29
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 20
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 21
+                    }
+                },
+                "value": "\""
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    29,
+                    30
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 21
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 22
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLEndTagOpen",
+                "range": [
+                    30,
+                    36
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 22
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 28
+                    }
+                },
+                "value": "view"
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    36,
+                    37
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 28
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 29
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    37,
+                    42
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 29
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 4
+                    }
+                },
+                "value": "\n    "
+            },
+            {
+                "type": "HTMLTagOpen",
+                "range": [
+                    42,
+                    47
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 9
+                    }
+                },
+                "value": "view"
+            },
+            {
+                "type": "HTMLIdentifier",
+                "range": [
+                    48,
+                    53
+                ],
+                "loc": {
+                    "start": {
+                        "column": 10,
+                        "line": 3
+                    },
+                    "end": {
+                        "column": 15,
+                        "line": 3
+                    }
+                },
+                "value": "wx:if"
+            },
+            {
+                "type": "HTMLAssociation",
+                "range": [
+                    53,
+                    54
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 15
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 16
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLQuote",
+                "range": [
+                    54,
+                    55
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 16
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 17
+                    }
+                },
+                "value": "\""
+            },
+            {
+                "type": "XExpressionStart",
+                "range": [
+                    55,
+                    57
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 17
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 19
+                    }
+                },
+                "value": "{{"
+            },
+            {
+                "type": "HTMLLiteralText",
+                "range": [
+                    57,
+                    61
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 19
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 23
+                    }
+                },
+                "value": "cond"
+            },
+            {
+                "type": "HTMLQuote",
+                "range": [
+                    61,
+                    62
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 23
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 24
+                    }
+                },
+                "value": "\""
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    62,
+                    63
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 24
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 25
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLEndTagOpen",
+                "range": [
+                    63,
+                    69
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 25
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 31
+                    }
+                },
+                "value": "view"
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    69,
+                    70
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 31
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 32
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    70,
+                    71
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 32
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 0
+                    }
+                },
+                "value": "\n"
+            },
+            {
+                "type": "HTMLEndTagOpen",
+                "range": [
+                    71,
+                    77
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 6
+                    }
+                },
+                "value": "view"
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    77,
+                    78
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 6
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 7
+                    }
+                },
+                "value": ""
+            }
+        ],
+        "comments": [],
+        "errors": [
+            {
+                "message": "missing-expression-end-tag",
+                "index": 21,
+                "lineNumber": 2,
+                "column": 13
+            },
+            {
+                "message": "missing-expression-end-tag",
+                "index": 55,
+                "lineNumber": 3,
+                "column": 17
+            },
+            {
+                "message": "x-invalid-end-tag",
+                "index": 71,
+                "lineNumber": 4,
+                "column": 0
+            }
+        ],
+        "xmlType": "wxml"
+    }
+}

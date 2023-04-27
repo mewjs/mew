@@ -1,0 +1,11 @@
+<template name="msgItem">
+    <div class="id-{{className}}-value"></div>
+</template>
+
+<import src="item.wxml" />
+
+<include src="header.wxml" />
+<template is="msgItem" data="{{...item}}"></template>
+<view is="msgItem" style="{{text: 'forbar'}}">
+    {{abcdef.length}}
+</view>

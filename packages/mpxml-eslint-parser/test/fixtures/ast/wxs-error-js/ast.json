@@ -1,0 +1,1511 @@
+{
+    "type": "Program",
+    "start": 0,
+    "end": 0,
+    "loc": {
+        "start": {
+            "line": 1,
+            "column": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 0
+        }
+    },
+    "range": [
+        0,
+        0
+    ],
+    "body": [],
+    "sourceType": "script",
+    "comments": [],
+    "tokens": [],
+    "templateBody": {
+        "type": "XDocumentFragment",
+        "range": [
+            0,
+            189
+        ],
+        "loc": {
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "end": {
+                "line": 12,
+                "column": 24
+            }
+        },
+        "children": [
+            {
+                "type": "XElement",
+                "range": [
+                    0,
+                    163
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 10,
+                        "column": 6
+                    }
+                },
+                "name": "wxs",
+                "rawName": "wxs",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "startTag": {
+                    "type": "XStartTag",
+                    "range": [
+                        0,
+                        18
+                    ],
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 18
+                        }
+                    },
+                    "selfClosing": false,
+                    "attributes": [
+                        {
+                            "type": "XAttribute",
+                            "range": [
+                                5,
+                                17
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 5
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 17
+                                }
+                            },
+                            "directive": false,
+                            "key": {
+                                "type": "XIdentifier",
+                                "range": [
+                                    5,
+                                    11
+                                ],
+                                "loc": {
+                                    "start": {
+                                        "line": 1,
+                                        "column": 5
+                                    },
+                                    "end": {
+                                        "line": 1,
+                                        "column": 11
+                                    }
+                                },
+                                "name": "module",
+                                "rawName": "module"
+                            },
+                            "value": [
+                                {
+                                    "type": "XLiteral",
+                                    "range": [
+                                        13,
+                                        16
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 13
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 16
+                                        }
+                                    },
+                                    "value": "wxs"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "children": [
+                    {
+                        "type": "XText",
+                        "range": [
+                            18,
+                            157
+                        ],
+                        "loc": {
+                            "start": {
+                                "line": 1,
+                                "column": 18
+                            },
+                            "end": {
+                                "line": 10,
+                                "column": 0
+                            }
+                        },
+                        "value": "\nconst hello = true;\nconst world = function () {\n    return 'hello world wxs';\n};\nmodule.exports = {\n    hello: hello,\n    world: world\n};\n"
+                    }
+                ],
+                "endTag": {
+                    "type": "XEndTag",
+                    "range": [
+                        157,
+                        163
+                    ],
+                    "loc": {
+                        "start": {
+                            "line": 10,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 10,
+                            "column": 6
+                        }
+                    }
+                },
+                "variables": []
+            },
+            {
+                "type": "XText",
+                "range": [
+                    163,
+                    165
+                ],
+                "loc": {
+                    "start": {
+                        "line": 10,
+                        "column": 6
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 0
+                    }
+                },
+                "value": "\n\n"
+            },
+            {
+                "type": "XElement",
+                "range": [
+                    165,
+                    189
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 24
+                    }
+                },
+                "name": "wxs",
+                "rawName": "wxs",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "startTag": {
+                    "type": "XStartTag",
+                    "range": [
+                        165,
+                        183
+                    ],
+                    "loc": {
+                        "start": {
+                            "line": 12,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 18
+                        }
+                    },
+                    "selfClosing": false,
+                    "attributes": [
+                        {
+                            "type": "XAttribute",
+                            "range": [
+                                170,
+                                182
+                            ],
+                            "loc": {
+                                "start": {
+                                    "line": 12,
+                                    "column": 5
+                                },
+                                "end": {
+                                    "line": 12,
+                                    "column": 17
+                                }
+                            },
+                            "directive": false,
+                            "key": {
+                                "type": "XIdentifier",
+                                "range": [
+                                    170,
+                                    176
+                                ],
+                                "loc": {
+                                    "start": {
+                                        "line": 12,
+                                        "column": 5
+                                    },
+                                    "end": {
+                                        "line": 12,
+                                        "column": 11
+                                    }
+                                },
+                                "name": "module",
+                                "rawName": "module"
+                            },
+                            "value": [
+                                {
+                                    "type": "XLiteral",
+                                    "range": [
+                                        178,
+                                        181
+                                    ],
+                                    "loc": {
+                                        "start": {
+                                            "line": 12,
+                                            "column": 13
+                                        },
+                                        "end": {
+                                            "line": 12,
+                                            "column": 16
+                                        }
+                                    },
+                                    "value": "wxs"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "children": [],
+                "endTag": {
+                    "type": "XEndTag",
+                    "range": [
+                        183,
+                        189
+                    ],
+                    "loc": {
+                        "start": {
+                            "line": 12,
+                            "column": 18
+                        },
+                        "end": {
+                            "line": 12,
+                            "column": 24
+                        }
+                    }
+                },
+                "variables": []
+            }
+        ],
+        "tokens": [
+            {
+                "type": "HTMLTagOpen",
+                "range": [
+                    0,
+                    4
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 4
+                    }
+                },
+                "value": "wxs"
+            },
+            {
+                "type": "HTMLIdentifier",
+                "range": [
+                    5,
+                    11
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 5
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 11
+                    }
+                },
+                "value": "module"
+            },
+            {
+                "type": "HTMLAssociation",
+                "range": [
+                    11,
+                    12
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 12
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLQuote",
+                "range": [
+                    12,
+                    13
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 12
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 13
+                    }
+                },
+                "value": "\""
+            },
+            {
+                "type": "HTMLLiteralText",
+                "range": [
+                    13,
+                    16
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 13
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 16
+                    }
+                },
+                "value": "wxs"
+            },
+            {
+                "type": "HTMLQuote",
+                "range": [
+                    16,
+                    17
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 16
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 17
+                    }
+                },
+                "value": "\""
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    17,
+                    18
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 17
+                    },
+                    "end": {
+                        "line": 1,
+                        "column": 18
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    18,
+                    19
+                ],
+                "loc": {
+                    "start": {
+                        "line": 1,
+                        "column": 18
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 0
+                    }
+                },
+                "value": "\n"
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    19,
+                    24
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 5
+                    }
+                },
+                "value": "const"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    24,
+                    25
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 5
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 6
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    25,
+                    30
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 6
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 11
+                    }
+                },
+                "value": "hello"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    30,
+                    31
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 12
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    31,
+                    32
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 12
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 13
+                    }
+                },
+                "value": "="
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    32,
+                    33
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 13
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 14
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    33,
+                    38
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 14
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 19
+                    }
+                },
+                "value": "true;"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    38,
+                    39
+                ],
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 19
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 0
+                    }
+                },
+                "value": "\n"
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    39,
+                    44
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 5
+                    }
+                },
+                "value": "const"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    44,
+                    45
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 5
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 6
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    45,
+                    50
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 6
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 11
+                    }
+                },
+                "value": "world"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    50,
+                    51
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 12
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    51,
+                    52
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 12
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 13
+                    }
+                },
+                "value": "="
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    52,
+                    53
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 13
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 14
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    53,
+                    61
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 14
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 22
+                    }
+                },
+                "value": "function"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    61,
+                    62
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 22
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 23
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    62,
+                    64
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 23
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 25
+                    }
+                },
+                "value": "()"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    64,
+                    65
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 25
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 26
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    65,
+                    66
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 26
+                    },
+                    "end": {
+                        "line": 3,
+                        "column": 27
+                    }
+                },
+                "value": "{"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    66,
+                    71
+                ],
+                "loc": {
+                    "start": {
+                        "line": 3,
+                        "column": 27
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 4
+                    }
+                },
+                "value": "\n    "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    71,
+                    77
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 10
+                    }
+                },
+                "value": "return"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    77,
+                    78
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 10
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 11
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    78,
+                    84
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 17
+                    }
+                },
+                "value": "'hello"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    84,
+                    85
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 17
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 18
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    85,
+                    90
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 18
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 23
+                    }
+                },
+                "value": "world"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    90,
+                    91
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 23
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 24
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    91,
+                    96
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 24
+                    },
+                    "end": {
+                        "line": 4,
+                        "column": 29
+                    }
+                },
+                "value": "wxs';"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    96,
+                    97
+                ],
+                "loc": {
+                    "start": {
+                        "line": 4,
+                        "column": 29
+                    },
+                    "end": {
+                        "line": 5,
+                        "column": 0
+                    }
+                },
+                "value": "\n"
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    97,
+                    99
+                ],
+                "loc": {
+                    "start": {
+                        "line": 5,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 5,
+                        "column": 2
+                    }
+                },
+                "value": "};"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    99,
+                    100
+                ],
+                "loc": {
+                    "start": {
+                        "line": 5,
+                        "column": 2
+                    },
+                    "end": {
+                        "line": 6,
+                        "column": 0
+                    }
+                },
+                "value": "\n"
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    100,
+                    114
+                ],
+                "loc": {
+                    "start": {
+                        "line": 6,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 6,
+                        "column": 14
+                    }
+                },
+                "value": "module.exports"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    114,
+                    115
+                ],
+                "loc": {
+                    "start": {
+                        "line": 6,
+                        "column": 14
+                    },
+                    "end": {
+                        "line": 6,
+                        "column": 15
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    115,
+                    116
+                ],
+                "loc": {
+                    "start": {
+                        "line": 6,
+                        "column": 15
+                    },
+                    "end": {
+                        "line": 6,
+                        "column": 16
+                    }
+                },
+                "value": "="
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    116,
+                    117
+                ],
+                "loc": {
+                    "start": {
+                        "line": 6,
+                        "column": 16
+                    },
+                    "end": {
+                        "line": 6,
+                        "column": 17
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    117,
+                    118
+                ],
+                "loc": {
+                    "start": {
+                        "line": 6,
+                        "column": 17
+                    },
+                    "end": {
+                        "line": 6,
+                        "column": 18
+                    }
+                },
+                "value": "{"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    118,
+                    123
+                ],
+                "loc": {
+                    "start": {
+                        "line": 6,
+                        "column": 18
+                    },
+                    "end": {
+                        "line": 7,
+                        "column": 4
+                    }
+                },
+                "value": "\n    "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    123,
+                    129
+                ],
+                "loc": {
+                    "start": {
+                        "line": 7,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 7,
+                        "column": 10
+                    }
+                },
+                "value": "hello:"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    129,
+                    130
+                ],
+                "loc": {
+                    "start": {
+                        "line": 7,
+                        "column": 10
+                    },
+                    "end": {
+                        "line": 7,
+                        "column": 11
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    130,
+                    136
+                ],
+                "loc": {
+                    "start": {
+                        "line": 7,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 7,
+                        "column": 17
+                    }
+                },
+                "value": "hello,"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    136,
+                    141
+                ],
+                "loc": {
+                    "start": {
+                        "line": 7,
+                        "column": 17
+                    },
+                    "end": {
+                        "line": 8,
+                        "column": 4
+                    }
+                },
+                "value": "\n    "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    141,
+                    147
+                ],
+                "loc": {
+                    "start": {
+                        "line": 8,
+                        "column": 4
+                    },
+                    "end": {
+                        "line": 8,
+                        "column": 10
+                    }
+                },
+                "value": "world:"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    147,
+                    148
+                ],
+                "loc": {
+                    "start": {
+                        "line": 8,
+                        "column": 10
+                    },
+                    "end": {
+                        "line": 8,
+                        "column": 11
+                    }
+                },
+                "value": " "
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    148,
+                    153
+                ],
+                "loc": {
+                    "start": {
+                        "line": 8,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 8,
+                        "column": 16
+                    }
+                },
+                "value": "world"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    153,
+                    154
+                ],
+                "loc": {
+                    "start": {
+                        "line": 8,
+                        "column": 16
+                    },
+                    "end": {
+                        "line": 9,
+                        "column": 0
+                    }
+                },
+                "value": "\n"
+            },
+            {
+                "type": "HTMLRawText",
+                "range": [
+                    154,
+                    156
+                ],
+                "loc": {
+                    "start": {
+                        "line": 9,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 9,
+                        "column": 2
+                    }
+                },
+                "value": "};"
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    156,
+                    157
+                ],
+                "loc": {
+                    "start": {
+                        "line": 9,
+                        "column": 2
+                    },
+                    "end": {
+                        "line": 10,
+                        "column": 0
+                    }
+                },
+                "value": "\n"
+            },
+            {
+                "type": "HTMLEndTagOpen",
+                "range": [
+                    157,
+                    162
+                ],
+                "loc": {
+                    "start": {
+                        "line": 10,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 10,
+                        "column": 5
+                    }
+                },
+                "value": "wxs"
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    162,
+                    163
+                ],
+                "loc": {
+                    "start": {
+                        "line": 10,
+                        "column": 5
+                    },
+                    "end": {
+                        "line": 10,
+                        "column": 6
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLWhitespace",
+                "range": [
+                    163,
+                    165
+                ],
+                "loc": {
+                    "start": {
+                        "line": 10,
+                        "column": 6
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 0
+                    }
+                },
+                "value": "\n\n"
+            },
+            {
+                "type": "HTMLTagOpen",
+                "range": [
+                    165,
+                    169
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 0
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 4
+                    }
+                },
+                "value": "wxs"
+            },
+            {
+                "type": "HTMLIdentifier",
+                "range": [
+                    170,
+                    176
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 5
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 11
+                    }
+                },
+                "value": "module"
+            },
+            {
+                "type": "HTMLAssociation",
+                "range": [
+                    176,
+                    177
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 11
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 12
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLQuote",
+                "range": [
+                    177,
+                    178
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 12
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 13
+                    }
+                },
+                "value": "\""
+            },
+            {
+                "type": "HTMLLiteralText",
+                "range": [
+                    178,
+                    181
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 13
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 16
+                    }
+                },
+                "value": "wxs"
+            },
+            {
+                "type": "HTMLQuote",
+                "range": [
+                    181,
+                    182
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 16
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 17
+                    }
+                },
+                "value": "\""
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    182,
+                    183
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 17
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 18
+                    }
+                },
+                "value": ""
+            },
+            {
+                "type": "HTMLEndTagOpen",
+                "range": [
+                    183,
+                    188
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 18
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 23
+                    }
+                },
+                "value": "wxs"
+            },
+            {
+                "type": "HTMLTagClose",
+                "range": [
+                    188,
+                    189
+                ],
+                "loc": {
+                    "start": {
+                        "line": 12,
+                        "column": 23
+                    },
+                    "end": {
+                        "line": 12,
+                        "column": 24
+                    }
+                },
+                "value": ""
+            }
+        ],
+        "comments": [],
+        "errors": [
+            {
+                "message": "The keyword 'const' is reserved",
+                "index": 19,
+                "lineNumber": 2,
+                "column": 0
+            }
+        ],
+        "xmlType": "wxml"
+    }
+}

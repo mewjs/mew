@@ -1,0 +1,4 @@
+<block>
+    <view a="{{cond}"></view>
+    <view wx:if="{{cond"></view>
+</view>

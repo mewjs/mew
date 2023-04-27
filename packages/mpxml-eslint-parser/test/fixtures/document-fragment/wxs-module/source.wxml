@@ -1,0 +1,13 @@
+<wxs module="wxs">
+var hello = true;
+var world = function () {
+    return 'hello world wxs';
+};
+module.exports = {
+    hello: hello,
+    world: world
+};
+</wxs>
+<wxs src="./module.wxs" module="wxsModule"/>
+<view wx:if="{{wxs.hello}}">{{wxs.world()}}</view>
+<view wx:if="{{wxsModule.hello}}">{{wxsModule.world()}}</view>

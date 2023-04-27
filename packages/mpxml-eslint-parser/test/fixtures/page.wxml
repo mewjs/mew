@@ -1,0 +1,46 @@
+<template name="msgItem">
+    <div class="id-{{className}}-value"></div>
+</template>
+
+<import src="item.wxml" />
+
+<include src="header.wxml" />
+
+<template name="odd">
+  <view> odd </view>
+</template>
+
+<template name="even">
+  <view> even </view>
+</template>
+
+<block wx:for="{{[1, 2, 3, 4, 5]}}">
+  <template is="{{item % 2 == 0 ? 'even' : 'odd'}}"/>
+</block>
+
+
+<view class="container">
+    <template is="msgItem" data="{{...item}}" />
+    <view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse && view == 'WEBVIEW'}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称</button>
+        <block wx:else>
+            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view>
+</view>
+
+<view class="usermotto">
+    <button bindtap="clickSend"> 点击事件</button>
+    <text class="bindtap">{{motto}}</text>
+    <navigator url="../gaga/gaga">点击跳转</navigator>
+    <MyComponent></MyComponent>
+    <switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;"> {{item.id}}</switch>
+    <button bindtap="switch"> Switch</button>
+    <button bindtap="addToFront"> Add to the front</button>
+
+    <switch wx:for="{{numberArray}}" wx:key="*this" style="display: block;"> {{item}}</switch>
+    <button bindtap="addNumberToFront"> Add to the front</button>
+    <view wx:for="{{['a','r','r','a','y']}}">
+        {{item}}
+</view>

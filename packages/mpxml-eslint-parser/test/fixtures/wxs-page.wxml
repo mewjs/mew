@@ -1,0 +1,9 @@
+<wxs module="foo">
+var some_msg = "hello world"
+var bbb = "ccc"
+module.exports = {
+    msg: some_msg,
+    bbb
+}
+</wxs>
+<view class="class"> {{foo.msg}} </view>

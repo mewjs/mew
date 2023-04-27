@@ -1,0 +1,134 @@
+[
+    {
+        "type": "XDocumentFragment",
+        "text": "<block>\n    <view wx: =\"{{cond}}\"></view>\n    <view s-=\"{{cond}}\"></view>\n</block>\n",
+        "children": [
+            {
+                "type": "XElement",
+                "text": "<block>\n    <view wx: =\"{{cond}}\"></view>\n    <view s-=\"{{cond}}\"></view>\n</block>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<block>",
+                        "children": []
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view wx: =\"{{cond}}\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view wx: =\"{{cond}}\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "wx: =\"{{cond}}\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "wx:",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "wx:",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XExpressionContainer",
+                                                "text": "{{cond}}",
+                                                "children": [
+                                                    {
+                                                        "type": "Identifier",
+                                                        "text": "cond",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view s-=\"{{cond}}\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view s-=\"{{cond}}\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "s-=\"{{cond}}\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "s-",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "s-",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XExpressionContainer",
+                                                "text": "{{cond}}",
+                                                "children": [
+                                                    {
+                                                        "type": "Identifier",
+                                                        "text": "cond",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n",
+                        "children": []
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</block>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            }
+        ]
+    }
+]

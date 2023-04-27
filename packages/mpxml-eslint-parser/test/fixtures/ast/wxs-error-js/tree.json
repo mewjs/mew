@@ -1,0 +1,84 @@
+[
+    {
+        "type": "XDocumentFragment",
+        "text": "<wxs module=\"wxs\">\nconst hello = true;\nconst world = function () {\n    return 'hello world wxs';\n};\nmodule.exports = {\n    hello: hello,\n    world: world\n};\n</wxs>\n\n<wxs module=\"wxs\"></wxs>",
+        "children": [
+            {
+                "type": "XElement",
+                "text": "<wxs module=\"wxs\">\nconst hello = true;\nconst world = function () {\n    return 'hello world wxs';\n};\nmodule.exports = {\n    hello: hello,\n    world: world\n};\n</wxs>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<wxs module=\"wxs\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "module=\"wxs\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "module",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "wxs",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\nconst hello = true;\nconst world = function () {\n    return 'hello world wxs';\n};\nmodule.exports = {\n    hello: hello,\n    world: world\n};\n",
+                        "children": []
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</wxs>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<wxs module=\"wxs\"></wxs>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<wxs module=\"wxs\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "module=\"wxs\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "module",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "wxs",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</wxs>",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

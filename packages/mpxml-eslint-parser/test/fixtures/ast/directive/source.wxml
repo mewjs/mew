@@ -1,0 +1,19 @@
+<block>
+    <view wx:if="{{}}"></view>
+    <view a:if="{{}}"></view>
+    <view s-if="{{}}"></view>
+    <view wx:for="abc"></view>
+    <view wx:for-items="abc"></view>
+    <view wx:for-item="abc"></view>
+
+    <view bindtap="tap"></view>
+    <view bind:tap="tap"></view>
+    <view onTap="tap"></view>
+    <view catchtap="tap"></view>
+    <view catch:tap="tap"></view>
+    <view capture-bind:tap="tap"></view>
+    <view capture-catch:tap="tap"></view>
+    <view mut-bind:tap="tap"></view>
+
+    <input model:value="{{value}}" />
+</block>

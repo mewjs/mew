@@ -1,0 +1,46 @@
+[
+    {
+        "type": "XDocumentFragment",
+        "text": "<template is=\"{{...data}}\"></template>\n",
+        "children": [
+            {
+                "type": "XElement",
+                "text": "<template is=\"{{...data}}\"></template>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<template is=\"{{...data}}\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "is=\"{{...data}}\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "is",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XExpressionContainer",
+                                        "text": "{{...data}}",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</template>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            }
+        ]
+    }
+]

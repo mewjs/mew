@@ -1,0 +1,475 @@
+[
+    {
+        "type": "XDocumentFragment",
+        "text": "<template name=\"msgItem\">\n    <div class=\"id-{{className}}-value\"></div>\n</template>\n\n<import src=\"item.wxml\" />\n<include src=\"header.wxml\" />\n\n<template is=\"msgItem\" data=\"{{...data}}\"></template>\n<template is=\"msgItem\" data=\"{{data, data1}}\"></template>\n<template is=\"{{'msgItem'}}\" data=\"{{data}}\"></template>\n\n<template data=\"{{item}}\"></template>",
+        "children": [
+            {
+                "type": "XElement",
+                "text": "<template name=\"msgItem\">\n    <div class=\"id-{{className}}-value\"></div>\n</template>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<template name=\"msgItem\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "name=\"msgItem\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "name",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "msgItem",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<div class=\"id-{{className}}-value\"></div>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<div class=\"id-{{className}}-value\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "class=\"id-{{className}}-value\"",
+                                        "children": [
+                                            {
+                                                "type": "XIdentifier",
+                                                "text": "class",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "id-",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "XExpressionContainer",
+                                                "text": "{{className}}",
+                                                "children": [
+                                                    {
+                                                        "type": "Identifier",
+                                                        "text": "className",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "-value",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</div>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n",
+                        "children": []
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</template>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<import src=\"item.wxml\" />",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<import src=\"item.wxml\" />",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "src=\"item.wxml\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "src",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "item.wxml",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<include src=\"header.wxml\" />",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<include src=\"header.wxml\" />",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "src=\"header.wxml\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "src",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "header.wxml",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<template is=\"msgItem\" data=\"{{...data}}\"></template>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<template is=\"msgItem\" data=\"{{...data}}\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "is=\"msgItem\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "is",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "msgItem",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XAttribute",
+                                "text": "data=\"{{...data}}\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "data",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XExpressionContainer",
+                                        "text": "{{...data}}",
+                                        "children": [
+                                            {
+                                                "type": "ObjectExpression",
+                                                "text": "{...data}",
+                                                "children": [
+                                                    {
+                                                        "type": "SpreadElement",
+                                                        "text": "...data",
+                                                        "children": [
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "data",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</template>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<template is=\"msgItem\" data=\"{{data, data1}}\"></template>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<template is=\"msgItem\" data=\"{{data, data1}}\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "is=\"msgItem\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "is",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "msgItem",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XAttribute",
+                                "text": "data=\"{{data, data1}}\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "data",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XExpressionContainer",
+                                        "text": "{{data, data1}}",
+                                        "children": [
+                                            {
+                                                "type": "ObjectExpression",
+                                                "text": "{data, data1}",
+                                                "children": [
+                                                    {
+                                                        "type": "Property",
+                                                        "text": "data",
+                                                        "children": [
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "data",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "data",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "Property",
+                                                        "text": "data1",
+                                                        "children": [
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "data1",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "data1",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</template>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<template is=\"{{'msgItem'}}\" data=\"{{data}}\"></template>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<template is=\"{{'msgItem'}}\" data=\"{{data}}\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "is=\"{{'msgItem'}}\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "is",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XExpressionContainer",
+                                        "text": "{{'msgItem'}}",
+                                        "children": [
+                                            {
+                                                "type": "Literal",
+                                                "text": "'msgItem'",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XAttribute",
+                                "text": "data=\"{{data}}\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "data",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XExpressionContainer",
+                                        "text": "{{data}}",
+                                        "children": [
+                                            {
+                                                "type": "ObjectExpression",
+                                                "text": "{data}",
+                                                "children": [
+                                                    {
+                                                        "type": "Property",
+                                                        "text": "data",
+                                                        "children": [
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "data",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "data",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</template>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<template data=\"{{item}}\"></template>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<template data=\"{{item}}\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "data=\"{{item}}\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "data",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XExpressionContainer",
+                                        "text": "{{item}}",
+                                        "children": [
+                                            {
+                                                "type": "ObjectExpression",
+                                                "text": "{item}",
+                                                "children": [
+                                                    {
+                                                        "type": "Property",
+                                                        "text": "item",
+                                                        "children": [
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "item",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "item",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</template>",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

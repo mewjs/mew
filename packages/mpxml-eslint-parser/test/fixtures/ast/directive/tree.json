@@ -1,0 +1,740 @@
+[
+    {
+        "type": "XDocumentFragment",
+        "text": "<block>\n    <view wx:if=\"{{}}\"></view>\n    <view a:if=\"{{}}\"></view>\n    <view s-if=\"{{}}\"></view>\n    <view wx:for=\"abc\"></view>\n    <view wx:for-items=\"abc\"></view>\n    <view wx:for-item=\"abc\"></view>\n\n    <view bindtap=\"tap\"></view>\n    <view bind:tap=\"tap\"></view>\n    <view onTap=\"tap\"></view>\n    <view catchtap=\"tap\"></view>\n    <view catch:tap=\"tap\"></view>\n    <view capture-bind:tap=\"tap\"></view>\n    <view capture-catch:tap=\"tap\"></view>\n    <view mut-bind:tap=\"tap\"></view>\n\n    <input model:value=\"{{value}}\" />\n</block>\n",
+        "children": [
+            {
+                "type": "XElement",
+                "text": "<block>\n    <view wx:if=\"{{}}\"></view>\n    <view a:if=\"{{}}\"></view>\n    <view s-if=\"{{}}\"></view>\n    <view wx:for=\"abc\"></view>\n    <view wx:for-items=\"abc\"></view>\n    <view wx:for-item=\"abc\"></view>\n\n    <view bindtap=\"tap\"></view>\n    <view bind:tap=\"tap\"></view>\n    <view onTap=\"tap\"></view>\n    <view catchtap=\"tap\"></view>\n    <view catch:tap=\"tap\"></view>\n    <view capture-bind:tap=\"tap\"></view>\n    <view capture-catch:tap=\"tap\"></view>\n    <view mut-bind:tap=\"tap\"></view>\n\n    <input model:value=\"{{value}}\" />\n</block>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<block>",
+                        "children": []
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view wx:if=\"{{}}\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view wx:if=\"{{}}\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "wx:if=\"{{}}\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "wx:if",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "wx:if",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XExpressionContainer",
+                                                "text": "{{}}",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view a:if=\"{{}}\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view a:if=\"{{}}\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "a:if=\"{{}}\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "a:if",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "a:if",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XExpressionContainer",
+                                                "text": "{{}}",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view s-if=\"{{}}\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view s-if=\"{{}}\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "s-if=\"{{}}\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "s-if",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "s-if",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XExpressionContainer",
+                                                "text": "{{}}",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view wx:for=\"abc\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view wx:for=\"abc\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "wx:for=\"abc\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "wx:for",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "wx:for",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "abc",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view wx:for-items=\"abc\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view wx:for-items=\"abc\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "wx:for-items=\"abc\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "wx:for-items",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "wx:for-items",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "abc",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view wx:for-item=\"abc\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view wx:for-item=\"abc\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "wx:for-item=\"abc\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "wx:for-item",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "wx:for-item",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "abc",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view bindtap=\"tap\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view bindtap=\"tap\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "bindtap=\"tap\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "bindtap",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "bind",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "tap",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "tap",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view bind:tap=\"tap\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view bind:tap=\"tap\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "bind:tap=\"tap\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "bind:tap",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "bind:",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "tap",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "tap",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view onTap=\"tap\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view onTap=\"tap\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "onTap=\"tap\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "onTap",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "on",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "Tap",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "tap",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view catchtap=\"tap\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view catchtap=\"tap\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "catchtap=\"tap\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "catchtap",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "catch",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "tap",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "tap",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view catch:tap=\"tap\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view catch:tap=\"tap\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "catch:tap=\"tap\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "catch:tap",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "catch:",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "tap",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "tap",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view capture-bind:tap=\"tap\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view capture-bind:tap=\"tap\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "capture-bind:tap=\"tap\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "capture-bind:tap",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "capture-bind:",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "tap",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "tap",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view capture-catch:tap=\"tap\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view capture-catch:tap=\"tap\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "capture-catch:tap=\"tap\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "capture-catch:tap",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "capture-catch:",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "tap",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "tap",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view mut-bind:tap=\"tap\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view mut-bind:tap=\"tap\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "mut-bind:tap=\"tap\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "mut-bind:tap",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "mut-bind:",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "tap",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "tap",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<input model:value=\"{{value}}\" />",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<input model:value=\"{{value}}\" />",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "model:value=\"{{value}}\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "model:value",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "model:",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "value",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XExpressionContainer",
+                                                "text": "{{value}}",
+                                                "children": [
+                                                    {
+                                                        "type": "Identifier",
+                                                        "text": "value",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n",
+                        "children": []
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</block>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            }
+        ]
+    }
+]

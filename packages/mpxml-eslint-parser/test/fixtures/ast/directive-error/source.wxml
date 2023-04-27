@@ -1,0 +1,4 @@
+<block>
+    <view wx: ="{{cond}}"></view>
+    <view s-="{{cond}}"></view>
+</block>

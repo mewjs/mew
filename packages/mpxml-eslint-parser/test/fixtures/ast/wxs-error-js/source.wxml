@@ -1,0 +1,12 @@
+<wxs module="wxs">
+const hello = true;
+const world = function () {
+    return 'hello world wxs';
+};
+module.exports = {
+    hello: hello,
+    world: world
+};
+</wxs>
+
+<wxs module="wxs"></wxs>

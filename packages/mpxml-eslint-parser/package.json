@@ -1,0 +1,64 @@
+{
+    "name": "@mewjs/mpxml-eslint-parser",
+    "version": "1.0.3",
+    "description": "The ESLint custom parser for `.wxml`, `.axml`, `.swan` files.",
+    "engines": {
+        "node": ">=12.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mewjs/mew.git",
+      "directory": "packages/mpxml-eslint-parser"
+    },
+    "main": "lib/index.js",
+    "files": [
+        "lib",
+        "docs",
+        "typings"
+    ],
+    "dependencies": {
+        "debug": "^4.1.1",
+        "eslint-scope": "^5.0.0",
+        "eslint-visitor-keys": "^1.1.0",
+        "espree": "^6.2.1",
+        "esquery": "^1.0.1",
+        "lodash": "^4.14.2"
+    },
+    "devDependencies": {
+        "@types/debug": "^4.1.7",
+        "@types/estree": "0.0.50",
+        "@types/lodash": "^4.14.182",
+        "@types/node": "^10.12.21",
+        "@typescript-eslint/parser": "^5.15.0",
+        "@types/jest": "^27.0.2",
+        "jest": "^27.3.1",
+        "ts-jest": "^27.0.7",
+        "babel-eslint": "^10.1.0",
+        "chokidar": "^2.0.4",
+        "cross-spawn": "^6.0.5",
+        "dts-bundle": "^0.7.3",
+        "eslint": "^7.13.0",
+        "fs-extra": "^7.0.1",
+        "npm-run-all": "^4.1.5",
+        "opener": "^1.5.1",
+        "rimraf": "^2.6.3",
+        "ts-node": "^8.10.2",
+        "typescript": "^4.6.2",
+        "wait-on": "^3.2.0",
+        "warun": "^1.0.0"
+    },
+    "scripts": {
+        "prebuild": "npm run -s clean",
+        "build:es": "tsc --module es2015",
+        "build": "tsc",
+        "clean": "rimraf lib coverage",
+        "lint": "mew ./src ./test/spec --rule",
+        "pretest": "npm run -s build",
+        "test": "jest",
+        "version": "npm run -s build",
+        "postversion": "git push && git push --tags",
+        "watch:tsc": "tsc --module es2015 --watch"
+    },
+    "keywords": ["miniprogram", "parser"],
+    "license": "MIT"
+}

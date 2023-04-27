@@ -1,0 +1,337 @@
+[
+    {
+        "type": "XDocumentFragment",
+        "text": "<wxs module=\"wxs\">\nvar hello = true;\nvar world = function () {\n    return 'hello world wxs';\n};\nmodule.exports = {\n    hello: hello,\n    world: world\n};\n</wxs>\n<wxs src=\"./module.wxs\" module=\"wxsModule\"/>\n<wxs src=\"./module.wxs\" module=\"wxsModule\"></wxs>\n<wxs></wxs>\n<wxs module=\"wxs\"></wxs>",
+        "children": [
+            {
+                "type": "XElement",
+                "text": "<wxs module=\"wxs\">\nvar hello = true;\nvar world = function () {\n    return 'hello world wxs';\n};\nmodule.exports = {\n    hello: hello,\n    world: world\n};\n</wxs>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<wxs module=\"wxs\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "module=\"wxs\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "module",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "wxs",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XModuleContainer",
+                        "text": "\nvar hello = true;\nvar world = function () {\n    return 'hello world wxs';\n};\nmodule.exports = {\n    hello: hello,\n    world: world\n};\n",
+                        "children": [
+                            {
+                                "type": "VariableDeclaration",
+                                "text": "var hello = true;",
+                                "children": [
+                                    {
+                                        "type": "VariableDeclarator",
+                                        "text": "hello = true",
+                                        "children": [
+                                            {
+                                                "type": "Identifier",
+                                                "text": "hello",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "Literal",
+                                                "text": "true",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclaration",
+                                "text": "var world = function () {\n    return 'hello world wxs';\n};",
+                                "children": [
+                                    {
+                                        "type": "VariableDeclarator",
+                                        "text": "world = function () {\n    return 'hello world wxs';\n}",
+                                        "children": [
+                                            {
+                                                "type": "Identifier",
+                                                "text": "world",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "FunctionExpression",
+                                                "text": "function () {\n    return 'hello world wxs';\n}",
+                                                "children": [
+                                                    {
+                                                        "type": "BlockStatement",
+                                                        "text": "{\n    return 'hello world wxs';\n}",
+                                                        "children": [
+                                                            {
+                                                                "type": "ReturnStatement",
+                                                                "text": "return 'hello world wxs';",
+                                                                "children": [
+                                                                    {
+                                                                        "type": "Literal",
+                                                                        "text": "'hello world wxs'",
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "text": "module.exports = {\n    hello: hello,\n    world: world\n};",
+                                "children": [
+                                    {
+                                        "type": "AssignmentExpression",
+                                        "text": "module.exports = {\n    hello: hello,\n    world: world\n}",
+                                        "children": [
+                                            {
+                                                "type": "MemberExpression",
+                                                "text": "module.exports",
+                                                "children": [
+                                                    {
+                                                        "type": "Identifier",
+                                                        "text": "module",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "type": "Identifier",
+                                                        "text": "exports",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "ObjectExpression",
+                                                "text": "{\n    hello: hello,\n    world: world\n}",
+                                                "children": [
+                                                    {
+                                                        "type": "Property",
+                                                        "text": "hello: hello",
+                                                        "children": [
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "hello",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "hello",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "Property",
+                                                        "text": "world: world",
+                                                        "children": [
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "world",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "type": "Identifier",
+                                                                "text": "world",
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</wxs>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<wxs src=\"./module.wxs\" module=\"wxsModule\"/>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<wxs src=\"./module.wxs\" module=\"wxsModule\"/>",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "src=\"./module.wxs\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "src",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "./module.wxs",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XAttribute",
+                                "text": "module=\"wxsModule\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "module",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "wxsModule",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<wxs src=\"./module.wxs\" module=\"wxsModule\"></wxs>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<wxs src=\"./module.wxs\" module=\"wxsModule\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "src=\"./module.wxs\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "src",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "./module.wxs",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XAttribute",
+                                "text": "module=\"wxsModule\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "module",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "wxsModule",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</wxs>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<wxs></wxs>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<wxs>",
+                        "children": []
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</wxs>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            },
+            {
+                "type": "XElement",
+                "text": "<wxs module=\"wxs\"></wxs>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<wxs module=\"wxs\">",
+                        "children": [
+                            {
+                                "type": "XAttribute",
+                                "text": "module=\"wxs\"",
+                                "children": [
+                                    {
+                                        "type": "XIdentifier",
+                                        "text": "module",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "XLiteral",
+                                        "text": "wxs",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</wxs>",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

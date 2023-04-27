@@ -1,0 +1,106 @@
+[
+    {
+        "type": "XDocumentFragment",
+        "text": "<block>\n    <view a=\"{{cond}\"></view>\n    <view wx:if=\"{{cond\"></view>\n",
+        "children": [
+            {
+                "type": "XElement",
+                "text": "<block>\n    <view a=\"{{cond}\"></view>\n    <view wx:if=\"{{cond\"></view>\n",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<block>",
+                        "children": []
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view a=\"{{cond}\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view a=\"{{cond}\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "a=\"{{cond}\"",
+                                        "children": [
+                                            {
+                                                "type": "XIdentifier",
+                                                "text": "a",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "{{cond}",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view wx:if=\"{{cond\"></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view wx:if=\"{{cond\">",
+                                "children": [
+                                    {
+                                        "type": "XAttribute",
+                                        "text": "wx:if=\"{{cond\"",
+                                        "children": [
+                                            {
+                                                "type": "XDirectiveKey",
+                                                "text": "wx:if",
+                                                "children": [
+                                                    {
+                                                        "type": "XIdentifier",
+                                                        "text": "wx:if",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "XLiteral",
+                                                "text": "{{cond",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

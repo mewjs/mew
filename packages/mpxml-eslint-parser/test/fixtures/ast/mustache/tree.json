@@ -1,0 +1,379 @@
+[
+    {
+        "type": "XDocumentFragment",
+        "text": "<block>\n    {{a.b.c}}\n    <view>{{b ? c : d}}</view>\n    {{e}}{{f}}{{g}}\n    <view></view>{{h || 'text'}}\n    {{\n        i === j ? true: false\n    }}\n\n    {{i &lt; 2}}\n    {{i &lt;&lt; 2}}\n\n    {{i > 2}}\n    {{i >> 2}}\n    {{i >>> 2}}\n</block>\n",
+        "children": [
+            {
+                "type": "XElement",
+                "text": "<block>\n    {{a.b.c}}\n    <view>{{b ? c : d}}</view>\n    {{e}}{{f}}{{g}}\n    <view></view>{{h || 'text'}}\n    {{\n        i === j ? true: false\n    }}\n\n    {{i &lt; 2}}\n    {{i &lt;&lt; 2}}\n\n    {{i > 2}}\n    {{i >> 2}}\n    {{i >>> 2}}\n</block>",
+                "children": [
+                    {
+                        "type": "XStartTag",
+                        "text": "<block>",
+                        "children": []
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{a.b.c}}",
+                        "children": [
+                            {
+                                "type": "MemberExpression",
+                                "text": "a.b.c",
+                                "children": [
+                                    {
+                                        "type": "MemberExpression",
+                                        "text": "a.b",
+                                        "children": [
+                                            {
+                                                "type": "Identifier",
+                                                "text": "a",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "Identifier",
+                                                "text": "b",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "Identifier",
+                                        "text": "c",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view>{{b ? c : d}}</view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view>",
+                                "children": []
+                            },
+                            {
+                                "type": "XExpressionContainer",
+                                "text": "{{b ? c : d}}",
+                                "children": [
+                                    {
+                                        "type": "ConditionalExpression",
+                                        "text": "b ? c : d",
+                                        "children": [
+                                            {
+                                                "type": "Identifier",
+                                                "text": "b",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "Identifier",
+                                                "text": "c",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "Identifier",
+                                                "text": "d",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{e}}",
+                        "children": [
+                            {
+                                "type": "Identifier",
+                                "text": "e",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{f}}",
+                        "children": [
+                            {
+                                "type": "Identifier",
+                                "text": "f",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{g}}",
+                        "children": [
+                            {
+                                "type": "Identifier",
+                                "text": "g",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XElement",
+                        "text": "<view></view>",
+                        "children": [
+                            {
+                                "type": "XStartTag",
+                                "text": "<view>",
+                                "children": []
+                            },
+                            {
+                                "type": "XEndTag",
+                                "text": "</view>",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{h || 'text'}}",
+                        "children": [
+                            {
+                                "type": "LogicalExpression",
+                                "text": "h || 'text'",
+                                "children": [
+                                    {
+                                        "type": "Identifier",
+                                        "text": "h",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "Literal",
+                                        "text": "'text'",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{\n        i === j ? true: false\n    }}",
+                        "children": [
+                            {
+                                "type": "ConditionalExpression",
+                                "text": "i === j ? true: false",
+                                "children": [
+                                    {
+                                        "type": "BinaryExpression",
+                                        "text": "i === j",
+                                        "children": [
+                                            {
+                                                "type": "Identifier",
+                                                "text": "i",
+                                                "children": []
+                                            },
+                                            {
+                                                "type": "Identifier",
+                                                "text": "j",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "Literal",
+                                        "text": "true",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "Literal",
+                                        "text": "false",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{i &lt; 2}}",
+                        "children": [
+                            {
+                                "type": "BinaryExpression",
+                                "text": "i &lt; 2",
+                                "children": [
+                                    {
+                                        "type": "Identifier",
+                                        "text": "i",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "Literal",
+                                        "text": "2",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{i &lt;&lt; 2}}",
+                        "children": [
+                            {
+                                "type": "BinaryExpression",
+                                "text": "i &lt;&lt; 2",
+                                "children": [
+                                    {
+                                        "type": "Identifier",
+                                        "text": "i",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "Literal",
+                                        "text": "2",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{i > 2}}",
+                        "children": [
+                            {
+                                "type": "BinaryExpression",
+                                "text": "i > 2",
+                                "children": [
+                                    {
+                                        "type": "Identifier",
+                                        "text": "i",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "Literal",
+                                        "text": "2",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{i >> 2}}",
+                        "children": [
+                            {
+                                "type": "BinaryExpression",
+                                "text": "i >> 2",
+                                "children": [
+                                    {
+                                        "type": "Identifier",
+                                        "text": "i",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "Literal",
+                                        "text": "2",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n    ",
+                        "children": []
+                    },
+                    {
+                        "type": "XExpressionContainer",
+                        "text": "{{i >>> 2}}",
+                        "children": [
+                            {
+                                "type": "BinaryExpression",
+                                "text": "i >>> 2",
+                                "children": [
+                                    {
+                                        "type": "Identifier",
+                                        "text": "i",
+                                        "children": []
+                                    },
+                                    {
+                                        "type": "Literal",
+                                        "text": "2",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "XText",
+                        "text": "\n",
+                        "children": []
+                    },
+                    {
+                        "type": "XEndTag",
+                        "text": "</block>",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "type": "XText",
+                "text": "\n",
+                "children": []
+            }
+        ]
+    }
+]
