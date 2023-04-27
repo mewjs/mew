@@ -1,0 +1,38 @@
+{
+  "name": "@mewjs/html-code-gen",
+  "version": "1.0.2",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mewjs/mew.git",
+    "directory": "packages/html-code-gen"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@mewjs/dom": "~1.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "coveralls": "^2.11.2",
+    "jest": "^27.3.1",
+    "mock-fs": "^5.1.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.7",
+    "type-fest": "^2.8.0",
+    "typescript": "~4.5.4"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc",
+    "lint": "mew src test --type=js --rule",
+    "test": "jest test"
+  },
+  "keywords": ["htmlint", "html", "beautify", "formatter"],
+  "license": "MIT"
+}
